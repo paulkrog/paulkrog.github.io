@@ -14,9 +14,16 @@ $zenbackground: $zendark;
 $zentext: #DCDCCC;
 
 $desktop-width: 40em;
+$mobile-width: 30em;
 
 @mixin desktop {
     @media only screen and (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media only screen and (max-width: #{$mobile-width}) {
         @content;
     }
 }
@@ -52,6 +59,7 @@ aside {
     margin: 2em;
     @include desktop {
         flex: 1 0;
+        order: 2;
     }
 }
 
