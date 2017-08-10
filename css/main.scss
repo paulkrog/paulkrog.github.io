@@ -1,0 +1,231 @@
+---
+---
+/* ^ needed for jekyll */
+
+// $accent: firebrick;
+// $dim:    #999;
+
+$zengreen: #8FAF9F;
+$zenbaby: #DCA3A3;
+$zencream: #F0DFAF;
+$zenleaf: #EFEFEF;
+$zendark: #3F3F3F;
+$zenbackground: $zendark;
+$zentext: #DCDCCC;
+
+$desktop-width: 40em;
+
+@mixin desktop {
+    @media only screen and (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+html {
+    background-color: $zenbackground;
+}
+
+body {
+    font-family: DejaVu Sans Mono;
+    margin: 0 auto; /* center the page */
+    max-width: $desktop-width + 10em;
+    color: $zentext;
+}
+
+a {
+    text-decoration: none;
+    color: $zengreen;
+}
+
+a:hover, a:focus, a.active {
+    text-decoration: underline;
+    color: $zenbaby;
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+aside {
+    flex: 1 100%;
+    margin: 2em;
+    @include desktop {
+        flex: 1 0;
+    }
+}
+
+main {
+    flex: 1 100%;
+    margin: 1em;
+    @include desktop {
+        flex: 3 0;
+    }
+}
+
+img {
+    max-width: 200px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 5px solid $zendark;
+}
+// img {
+//     max-width: 200px;
+//     box-sizing: border-box;
+//     border-radius: 10px;
+//     border: 3px solid $zendark;
+// }
+
+#papers {
+    dt { font-size: 120%; }
+    dd+dt { padding-top: 1em; }
+
+    dd { margin: 0 1em; }
+    .author .me { font-weight:bold; }
+}
+
+h1 {
+    color: $zencream;
+}
+
+h2 {
+    color: $zenbaby;
+}
+
+.news-item {
+    display: flex;
+    flex-flow: row wrap;
+    .date {
+        color: $zencream;
+        padding-bottom: 0.5em;
+        @include desktop {
+            flex: 1;
+            text-align: right;
+            padding-right: 1em;
+        }
+    }
+
+    .content {
+        @include desktop {
+            flex: 5;
+        }
+        padding-bottom: 1em;
+    }
+    /* needed to ignore p from jekyll in news entries */
+    .content>p { display: inline; margin: 0 }
+}
+
+
+// PMK below
+/*
+Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
+based on dark.css by Ivan Sagalaev
+*/
+
+// pre code {
+//   display: block; padding: 0.5em;
+//   background: #3F3F3F;
+//   color: #DCDCDC;
+// }
+
+// pre .keyword,
+// pre .tag,
+// pre .css .class,
+// pre .css .id,
+// pre .lisp .title,
+// pre .nginx .title,
+// pre .request,
+// pre .status,
+// pre .clojure .attribute {
+//   color: #E3CEAB;
+// }
+
+// pre .django .template_tag,
+// pre .django .variable,
+// pre .django .filter .argument {
+//   color: #DCDCDC;
+// }
+
+// pre .number,
+// pre .date {
+//   color: #8CD0D3;
+// }
+
+// pre .dos .envvar,
+// pre .dos .stream,
+// pre .variable,
+// pre .apache .sqbracket {
+//   color: #EFDCBC;
+// }
+
+// pre .dos .flow,
+// pre .diff .change,
+// pre .python .exception,
+// pre .python .built_in,
+// pre .literal,
+// pre .tex .special {
+//   color: #EFEFAF;
+// }
+
+// pre .diff .chunk,
+// pre .subst {
+//   color: #8F8F8F;
+// }
+
+// pre .dos .keyword,
+// pre .python .decorator,
+// pre .title,
+// pre .haskell .type,
+// pre .diff .header,
+// pre .ruby .class .parent,
+// pre .apache .tag,
+// pre .nginx .built_in,
+// pre .tex .command,
+// pre .prompt {
+//     color: #efef8f;
+// }
+
+// pre .dos .winutils,
+// pre .ruby .symbol,
+// pre .ruby .symbol .string,
+// pre .ruby .string {
+//   color: #DCA3A3;
+// }
+
+// pre .diff .deletion,
+// pre .string,
+// pre .tag .value,
+// pre .preprocessor,
+// pre .built_in,
+// pre .sql .aggregate,
+// pre .javadoc,
+// pre .smalltalk .class,
+// pre .smalltalk .localvars,
+// pre .smalltalk .array,
+// pre .css .rules .value,
+// pre .attr_selector,
+// pre .pseudo,
+// pre .apache .cbracket,
+// pre .tex .formula {
+//   color: #CC9393;
+// }
+
+// pre .shebang,
+// pre .diff .addition,
+// pre .comment,
+// pre .java .annotation,
+// pre .template_comment,
+// pre .pi,
+// pre .doctype {
+//   color: #7F9F7F;
+// }
+
+// pre .coffeescript .javascript,
+// pre .javascript .xml,
+// pre .tex .formula,
+// pre .xml .javascript,
+// pre .xml .vbscript,
+// pre .xml .css,
+// pre .xml .cdata {
+//   opacity: 0.5;
+// }
