@@ -5,6 +5,7 @@
 % conditions of the LaTeX Project Public License version 1.3c,
 % available at http://www.latex-project.org/lppl/.
 
+% TODO: add senior design, 337, and 437 projects
 
 \documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
@@ -65,46 +66,49 @@
 \begin{itemize}
 
 
-\item{\cventry{June 2017}{Oregon Progamming Languages Summer
-      School}{OPLSS 2017}{Eugene, Oregon}{}{\vspace{3pt} Attended
-      research lectures from experts in Programming Languages and
-      Formal Methods. Took part in hands-on sessions for learning
-      about current research software and techniques: Idris, PLT
-      Redex, Concurrent C0}}
+\item{\cventry{Jun 2017}{Oregon Progamming Languages Summer
+      School}{OPLSS 2017}{Eugene, Oregon}{}{\vspace{3pt}
+      \parbox{0.75\linewidth}{Attended research lectures from experts
+        in Programming Languages and Formal Methods. Participated in
+        hands-on sessions for learning about current research software
+        and techniques: Idris, PLT Redex, Concurrent C0}}}
 
-\item{\cventry{Sept. 2016--Dec. 2016}{Purdue E-lab}{Deep
-      Learning}{West Lafayette}{}{\vspace{3pt} Experimented with
-      Torch7 deep learning framework to find solutions to
-      reinforcement learning problems.}}
+\item{\cventry{Sep 2016--Dec 2016}{Purdue E-lab}{Deep Learning}{West
+      Lafayette}{}{\vspace{3pt} \parbox{0.75\linewidth}{Used Torch7
+        deep learning framework to find solutions to reinforcement
+        learning problems.}}}
 
 \vspace{4pt}
 
-\item{\cventry{May 2016--July 2016}{APOLO computing group}{Software
-      for HPC cluster administration}{Medellin,
-      Colombia}{}{\vspace{3pt} Developed software to produce client
-      usage reports for a Linux Rocks cluster administrative team.
+\item{\cventry{May 2016--Jul 2016}{APOLO computing group}{Software for
+      HPC cluster administration}{Medellin, Colombia}{}{\vspace{3pt}
+      \parbox{0.75\linewidth}{Developed software to produce client
+        usage reports for a Linux Rocks cluster administrative team.}
       \begin{itemize}
-      \item Wrote python scripts to query cluster load and usage
-        patterns and to present gathered information clearly and
-        succinctly
-      \item Interfaced with TORQUE and SLURM resource management systems
+      \item \parbox{0.75\linewidth}{Wrote python scripts to query
+          cluster load and usage patterns and to present gathered
+          information clearly and succinctly}
+    \item \parbox{0.75\linewidth}{Interfaced with TORQUE and SLURM
+        resource management systems}
       \end{itemize}
 }}
 
 \vspace{4pt}
 
-\item{\cventry{May 2014--July 2014}{Purdue OADA undergraduate research
+\item{\cventry{May 2014--Jul 2014}{Purdue OADA undergraduate research
       team}{Embedded systems programming}{West
-      Lafayette}{}{\vspace{2pt} Developed software for a wireless,
-      embedded semi-truck weight sensing application. The goal was to
-      provide a way for truck drivers to quickly learn the weight of
-      their load through an app interface that communicated wirelessly
-      with an embedded circuit board.
+      Lafayette}{}{\vspace{2pt} \parbox{0.75\linewidth}{Developed
+        software for a wireless, embedded semi-truck weight sensing
+        application. The goal was to provide a way for truck drivers
+        to quickly learn the weight of their load through an app
+        interface that communicated wirelessly with an embedded
+        circuit board.}
       \begin{itemize}
-      \item Interfaced Nordic nRF51822 SoC to air pressure sensors
-        over I2C
-      \item Programmed communication between Andriod application and
-        SoC using Bluetooth Low Energy stack
+      \item \parbox{0.75\linewidth}{Interfaced Nordic nRF51822 SoC to
+          air pressure sensors over I2C}
+      \item \parbox{0.75\linewidth}{Programmed communication between
+          Andriod application and SoC using Bluetooth Low Energy
+          stack}
       \end{itemize}
 }}
 
@@ -131,12 +135,15 @@
     \begin{itemize}
     \item ECE 369 -- Discrete Math
     \end{itemize}
-  \item{\textbf{Masters Project ('Formalization of
-        Fiat in Coq'):} \small{I'm working on proving type safety for
-        the Fiat specification language in Coq. Additionally, I'm
-        exploring the potential for synthesis of performant Haskell
-        code from high level specifications. }}
-
+  \item{
+      \textbf{Masters Project ('Formalization of Fiat in Coq')}
+      \begin{itemize}
+      \item \parbox{0.75\linewidth}{Developing proof of type safety
+          for the Fiat specification language in Coq. Additionally,
+          exploring the potential for synthesis of performant Haskell
+          code from high level specifications. }
+      \end{itemize}
+    }
   \end{itemize}
 
 % \item{\textbf{Masters Project (Ongoing):} \textit{'Semantically-driven
@@ -165,12 +172,44 @@
 
 \vspace{2pt}
 
-\subsection{Coursework}
+% \subsection{Course Projects}
+
+% \vspace{3pt}
+
+% \begin{itemize}
+
+% \item{\cventry{Spring 2016}{ECE 477}{Digital Systems Senior Design}{}{}{\vspace{2pt} Designed, implemented, and machined a
+%       digital, MIDI-outputting trombone.
+%       \begin{itemize}
+%       \item UART communication with MIDI keyboard
+%       \item Captured player input with various sensors
+%       \item Designed, soldered, programmed, and debugged printed
+%         circuit board.
+%       \end{itemize}
+%     }}
+
+% \item{\cventry{Spring 2016}{ECE 437}{Computer
+%       Architecture}{}{}{\vspace{2pt} Programmed dual-core 5-stage
+%       pipelined processor in verilog.
+%       \begin{itemize}
+%       \item Implemented a subset of the MIPS ISA.
+%       \item Implemented cache coherency protocol for instruction and
+%         data caches.
+%       \item Implemented branch lookahead buffer.
+%       \end{itemize}
+%     }}
+
+% \end{itemize}
+
+\subsection{Courses}
 
 \begin{minipage}[t]{0.45\linewidth}
   \raggedright
   \textbf{Graduate}
   \begin{tabular}{ll}
+    CE 642 -- Information Theory and Source Coding \\
+    CS 590 -- Reasoning About Programs (Audit) \\
+    CE 573 -- Compilers and Translator Systems \\
     CE 608 -- Computational Models and Methods \\
     CE 600 -- Probabilities and Random Processes \\
     CS 565 -- Programming Languages \\
