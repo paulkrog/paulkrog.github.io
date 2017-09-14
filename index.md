@@ -5,9 +5,8 @@ layout: experimental
 You've reached the site of Paul Krogmeier. I'm a masters student at
 [Purdue University][purdue] in the department of [Electrical and
 Computer Engineering][ece]. I'm working with Professor [Ben
-Delaware][ben] on a deep embedding of
-[Fiat][fiat] in Coq. I'm also a proud member
-of [PurPL][purpl].
+Delaware][ben] on a deep embedding of [Fiat][fiat] in Coq. I'm also a
+member of our programming languages group, [PurPL][purpl].
 
 In my free time I enjoy playing saxophone, running, skiing, traveling,
 and learning new languages. I speak Spanish and German, and am interested
