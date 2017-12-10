@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.19)  5 DEC 2017 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.19)  10 DEC 2017 16:26
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1095,135 +1095,136 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--57
 
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 62.
+
+LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
+(Font)              using `T1/lmss/m/n' instead on input line 66.
+
+
+Underfull \hbox (badness 10000) detected at line 66
+\T1/lmss/m/n/7 .
+ []
+
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 74.
+(Font)              <9> on input line 73.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 74.
+(Font)              <6> on input line 73.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <9> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 74.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 73.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 74.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 73.
+LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <9> not available
+(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 73.
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <9> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 73.
 
-Overfull \hbox (9.99756pt too wide) in paragraph at lines 74--74
+Overfull \hbox (9.99756pt too wide) in paragraph at lines 73--73
 [][] 
- []
-
-
-Overfull \hbox (9.99756pt too wide) in paragraph at lines 74--74
-[]$ 
- []
-
-
-Overfull \hbox (9.99756pt too wide) in paragraph at lines 79--79
-[][] 
- []
-
-
-Overfull \hbox (9.99756pt too wide) in paragraph at lines 79--79
-[]$ 
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 93.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 76.
 
-Overfull \hbox (9.99756pt too wide) in paragraph at lines 93--93
-[][] 
- []
-
-
-Overfull \hbox (9.99756pt too wide) in paragraph at lines 93--93
-[]$ 
- []
-
-
-Overfull \hbox (9.99756pt too wide) in paragraph at lines 111--111
-[][] 
- []
-
-
-Overfull \hbox (9.99756pt too wide) in paragraph at lines 111--111
-[]$ 
- []
-
-
-LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/m/n' instead on input line 129.
-
-
-Underfull \hbox (badness 10000) detected at line 129
-\T1/lmss/m/n/7 .
- []
-
-LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <9> not available
-(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 136.
-
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <9> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 136.
-
-
-Overfull \hbox (9.99756pt too wide) in paragraph at lines 136--136
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 163
+Underfull \hbox (badness 10000) detected at line 100
 \T1/lmss/m/n/7 .
  []
 
 
-Overfull \hbox (9.99756pt too wide) in paragraph at lines 170--170
+Overfull \hbox (9.99756pt too wide) in paragraph at lines 107--107
 [][] 
+ []
+
+
+Overfull \hbox (9.99756pt too wide) in paragraph at lines 110--110
+[][] 
+ []
+
+
+Overfull \hbox (9.99756pt too wide) in paragraph at lines 197--197
+[][] 
+ []
+
+
+Overfull \hbox (9.99756pt too wide) in paragraph at lines 197--197
+[]$ 
+ []
+
+
+Overfull \hbox (9.99756pt too wide) in paragraph at lines 202--202
+[][] 
+ []
+
+
+Overfull \hbox (9.99756pt too wide) in paragraph at lines 202--202
+[]$ 
+ []
+
+
+Overfull \hbox (9.99756pt too wide) in paragraph at lines 216--216
+[][] 
+ []
+
+
+Overfull \hbox (9.99756pt too wide) in paragraph at lines 216--216
+[]$ 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (9.99756pt too wide) in paragraph at lines 173--173
+Overfull \hbox (9.99756pt too wide) in paragraph at lines 234--234
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) detected at line 208
+Overfull \hbox (9.99756pt too wide) in paragraph at lines 234--234
+[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 240
 \T1/lmss/m/n/7 .
  []
 
 No file paul-krogmeier-cv.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 339.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 339.
  (./paul-krogmeier-cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 339.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 339.
 Package rerunfilecheck Info: File `paul-krogmeier-cv.out' has not changed.
-(rerunfilecheck)             Checksum: CEE6AAB907731F724FAE2CE5DC9F88FE;914.
+(rerunfilecheck)             Checksum: 0ED0FEAF141DCEB8A291A5ED9458CAE4;929.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21834 strings out of 492985
- 366447 string characters out of 6138637
- 448882 words of memory out of 5000000
+ 21836 strings out of 492985
+ 366467 string characters out of 6138637
+ 447882 words of memory out of 5000000
  25139 multiletter control sequences out of 15000+600000
- 602993 words of font info for 77 fonts, out of 8000000 for 9000
+ 603102 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,12n,45p,10376b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
-nts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/share/texmf-dist/fonts/type1
-/public/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texm
-f-dist/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/lm/lmssbo10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx1
-0.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share/texm
-f-dist/fonts/type1/public/lm/lmsso9.pfb>
-Output written on paul-krogmeier-cv.pdf (2 pages, 221776 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fo
+nts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.
+enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr
+/share/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/l
+m/lmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/t
+exmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/lm/lmss12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss17.pfb></u
+sr/share/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf-dist/font
+s/type1/public/lm/lmss9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbo
+10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/te
+xmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/lm/lmsso9.pfb>
+Output written on paul-krogmeier-cv.pdf (2 pages, 239945 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
  22081 words of extra memory for PDF output out of 24883 (max. 10000000)
 

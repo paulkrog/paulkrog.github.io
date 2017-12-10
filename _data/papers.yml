@@ -1,0 +1,10 @@
+- title: Towards Context-Aware Data Refinement
+  authors:
+    - Paul Krogmeier
+    - Steven Kidd
+    - Benjamin Delaware
+  type:
+  venue: Intl. Workshop on Coq for Programming Languages 2018
+  venue_url: https://popl18.sigplan.org/track/CoqPL-2018
+  date: January 2018
+  url: /papers/ContextAware+DataRefinement.pdf

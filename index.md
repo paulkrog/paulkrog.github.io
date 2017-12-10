@@ -29,6 +29,14 @@ in academic opportunities in Germany.
 {% endfor %}
 </section>
 
+## Publications
+
+<section id="papers">
+{% for paper in site.data.papers %}
+{% include paper.html paper=paper %}
+{% endfor %}
+</section>
+
 <!-- ## Thoughts -->
 
 <!-- <section id="thoughts"> -->
