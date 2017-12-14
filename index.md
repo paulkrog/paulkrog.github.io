@@ -2,7 +2,7 @@
 layout: experimental
 ---
 
-You've reached the site of Paul Krogmeier. I'm a masters student at
+You've reached the site of Paul Krogmeier. I'm a master's student at
 [Purdue University][purdue] in the department of [Electrical and
 Computer Engineering][ece]. I'm working with Professor [Ben
 Delaware][ben] on a deep embedding of [Fiat][fiat] in Coq. I'm also a
