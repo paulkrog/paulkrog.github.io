@@ -2,21 +2,23 @@
 layout: experimental
 ---
 
-You've reached the site of Paul Krogmeier. I'm a master's student at
-[Purdue University][purdue] in the department of [Electrical and
-Computer Engineering][ece]. I'm working with Professor [Ben
-Delaware][ben] on a deep embedding of [Fiat][fiat] in Coq. I'm also a
-member of our programming languages group, [PurPL][purpl].
+You've reached the site of Paul Krogmeier. I'm a PhD student at the
+[University of Illinois at Urbana-Champaign][uiuc] in the department
+of [Computer Science][cs]. <!-- I'm working with Professor [Ben -->
+<!-- Delaware][ben] on a deep embedding of [Fiat][fiat] in Coq. I'm also a -->
+<!-- member of our programming languages group, [PurPL][purpl]. -->
 
-In my free time I enjoy playing saxophone, running, skiing, traveling,
-and learning new languages. I speak Spanish and German, and am interested
-in academic opportunities in Germany.
+I enjoy playing saxophone, running, skiing, traveling, and learning
+new languages. I speak Spanish and German, and am interested in
+academic opportunities in Germany.
 
 [purdue]: http://www.purdue.edu
 [ece]: https://engineering.purdue.edu/ECE
 [ben]: https://www.cs.purdue.edu/homes/bendy
 [fiat]: http://plv.csail.mit.edu/fiat/
 [purpl]: http://purduepl.github.io/
+[uiuc]: https://illinois.edu/
+[cs]: https://cs.illinois.edu/
 
 ## Recent
 
