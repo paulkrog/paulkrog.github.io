@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.29)  6 SEP 2018 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.11)  6 DEC 2018 20:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1161,8 +1161,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  22051 strings out of 492982
- 372568 string characters out of 6134896
- 453433 words of memory out of 5000000
+ 372568 string characters out of 6134895
+ 453434 words of memory out of 5000000
  25350 multiletter control sequences out of 15000+600000
  602506 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1176,7 +1176,7 @@ onts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb>
-Output written on paul-krogmeier-cv.pdf (3 pages, 196268 bytes).
+Output written on paul-krogmeier-cv.pdf (3 pages, 196261 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  89 compressed objects within 1 object stream
