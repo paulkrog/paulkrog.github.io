@@ -5,7 +5,7 @@
 % conditions of the LaTeX Project Public License version 1.3c,
 % available at http://www.latex-project.org/lppl/.
 
-% TODO:
+% TODO: add invited talks (MWPLS19), add invited workshops (Dagstuhl19)
 
 \documentclass[12pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
@@ -26,6 +26,14 @@
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 \usepackage{import}
+
+\usepackage{xcolor}
+% \usepackage[colorlinks = true,
+%             linkcolor = blue,
+%             urlcolor  = blue,
+%             citecolor = blue,
+%             anchorcolor = blue]{hyperref}
+\newcommand{\MYhref}[3][gray]{\href{#2}{\color{#1}{#3}}}%
 
 % personal data
 \name{Paul}{Krogmeier}
@@ -179,6 +187,16 @@
 
 \vspace{4pt}
 \begin{itemize}
+\item[] Decidable Synthesis of Programs with Uninterpreted Functions.
+  Paul Krogmeier, P. Madhusudan, Umang Mathur, Adithya Murali, Mahesh
+  Viswanathan.  Under
+  submission. \MYhref{http://umathur3.web.engr.illinois.edu/papers/coherent-synthesis.pdf}{Preprint.}
+\vspace{8pt}
+\item[] Deciding Memory Safety for Forest Data Structures. Umang Mathur,
+  Adithya Murali, Paul Krogmeier, P. Madhusudan, Mahesh
+  Viswanathan. Under
+  submission. \MYhref{http://umathur3.web.engr.illinois.edu/papers/memsafety.pdf}{Preprint.}
+\vspace{8pt}
 \item[] Krogmeier, P. M. and Kidd, S. and Delaware, B. Towards
   Context-Aware Data Refinement. Fourth International Workshop on Coq
   for Programming Languages, January 2018.
@@ -221,8 +239,6 @@
       of refinement from Fiat specifications to implementations.
     \end{itemize}}}
 \vspace{2pt}
-
-\newpage
 
 \cventry{Aug 2017--Dec 2017}{Discrete Math Teaching Assistant--ECE
   369}{Purdue University ECE Department}{West Lafayette, IN}{}{\vspace{3pt}
@@ -289,7 +305,19 @@
 % \end{itemize}
 
 
-\section{Workshops}
+\section{Invited Workshops}
+
+\vspace{4pt}
+
+\cventry{Sep 2019}{Invited Junior Researcher}{Dagstuhl Seminar on
+  Logic and Learning}{Schloss Dagstuhl, Germany}{}{\vspace{3pt} \parbox{0.75\linewidth}{
+        \begin{itemize}
+        \item[] The goal of this seminar was to explore ways of
+          combining logical knowledge with learning systems like
+          neural networks.
+        \end{itemize}}}
+
+\section{Summer Schools}
 
 \vspace{4pt}
 

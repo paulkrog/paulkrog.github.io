@@ -11,7 +11,10 @@
     "moderncv12"
     "inputenc"
     "geometry"
-    "import")
+    "import"
+    "xcolor")
+   (TeX-add-symbols
+    '("MYhref" ["argument"] 2))
    (LaTeX-add-bibliographies
     "publications"))
  :latex)
