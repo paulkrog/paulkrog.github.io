@@ -1,24 +1,23 @@
-- title: Design and Implementation of Concurrent C0
+- title: Deciding Memory Safety for Single-Pass Heap-Manipulating Programs
   authors:
-    - Max Willsey
-    - Rokhini Prabhu
-    - Frank Pfenning
+  - Umang Mathur
+  - Adithya Murali
+  - Paul Krogmeier
+  - P. Madhusudan
+  - Mahesh Viswanathan
   type:
-  venue: International Workshop on Linearity 2016
-  venue_url: http://eptcs.web.cse.unsw.edu.au/content.cgi?LINEARITY2016
-  date: June 2016
-  url: /papers/cc0-linear16.pdf
+  venue: POPL 2020
+  venue_url: https://popl20.sigplan.org
+  date: January 2020
+  url: /papers/MemSafePOPL20.pdf
 
-- title: Design and Implementation of Concurrent C0
+- title: Towards Context-Aware Data Refinement
   authors:
-    - Max Willsey
+    - Paul Krogmeier
+    - Steven Kidd
+    - Benjamin Delaware
   type:
-  venue: Senior Honors Thesis
-  date: May 2016
-  url: /papers/cc0-thesis.pdf
-  extra: Designated as <em>Exemplary Thesis</em> by the senior thesis award committee
-  links:
-    - text: Poster
-      url: /papers/cc0-MoM16-poster.pdf
-    - text: Slides
-      url: /papers/cc0-MoM16-slides.pdf
+  venue: Intl. Workshop on Coq for Programming Languages 2018
+  venue_url: https://popl18.sigplan.org/track/CoqPL-2018
+  date: January 2018
+  url: /papers/CoqPL18.pdf

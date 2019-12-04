@@ -2,17 +2,17 @@
 layout: experimental
 ---
 
-You've reached the site of Paul Krogmeier. I'm a PhD student at the
-[University of Illinois at Urbana-Champaign][uiuc] in the department
-of [Computer Science][cs]. <!-- I'm working with Professor [Ben -->
-<!-- Delaware][ben] on a deep embedding of [Fiat][fiat] in Coq. I'm
-also a --> <!-- member of our programming languages group,
+My name is Paul Krogmeier. I'm a PhD student at the [University of
+Illinois at Urbana-Champaign][uiuc] in the department of [Computer
+Science][cs]. <!-- I'm working with Professor [Ben --> <!--
+Delaware][ben] on a deep embedding of [Fiat][fiat] in Coq. I'm also a
+--> <!-- member of our programming languages group,
 [PurPL][purpl]. --> Some of my academic interests include mathematical
 logic, formal verification, and logical foundations for machine
 learning.
 
 I enjoy playing saxophone, running, skiing, traveling, and learning
-new languages. I speak Spanish and German.
+new languages.
 
 [purdue]: http://www.purdue.edu
 [ece]: https://engineering.purdue.edu/ECE
@@ -21,17 +21,6 @@ new languages. I speak Spanish and German.
 [purpl]: http://purduepl.github.io/
 [uiuc]: https://illinois.edu/
 [cs]: https://cs.illinois.edu/
-
-## Recent
-
-<section id="news">
-{% for post in site.posts %}
-<div class="news-item">
-<div class="date"> {{ post.date | date: "%b&nbsp;%-d" }} </div>
-<div class="content"> {{ post.content }} </div>
-</div>
-{% endfor %}
-</section>
 
 ## Publications
 

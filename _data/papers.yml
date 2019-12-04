@@ -1,3 +1,29 @@
+- title: Decidable Synthesis of Programs with Uninterpreted Functions
+  authors:
+  - Paul Krogmeier
+  - Umang Mathur
+  - Adithya Murali
+  - P. Madhusudan
+  - Mahesh Viswanathan
+  type:
+  venue: Under submission.
+  # venue_url: https://popl20.sigplan.org
+  # date: January 2020
+  url: /papers/DecUnintSynthArxiv.pdf
+
+- title: Deciding Memory Safety for Single-Pass Heap-Manipulating Programs
+  authors:
+  - Umang Mathur
+  - Adithya Murali
+  - Paul Krogmeier
+  - P. Madhusudan
+  - Mahesh Viswanathan
+  type:
+  venue: POPL 2020
+  venue_url: https://popl20.sigplan.org
+  date: January 2020
+  url: /papers/MemSafePOPL20.pdf
+
 - title: Towards Context-Aware Data Refinement
   authors:
     - Paul Krogmeier
@@ -7,4 +33,4 @@
   venue: Intl. Workshop on Coq for Programming Languages 2018
   venue_url: https://popl18.sigplan.org/track/CoqPL-2018
   date: January 2018
-  url: /papers/ContextAware+DataRefinement.pdf
+  url: /papers/CoqPL18.pdf

@@ -27,7 +27,7 @@ github_username:  paulkrog
 # Build settings
 markdown: kramdown
 # theme: jekyll-theme-minimal
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
