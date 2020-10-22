@@ -18,6 +18,9 @@
    (LaTeX-add-labels
     "sec:teaching")
    (LaTeX-add-bibliographies
-    "publications"))
+    "publications")
+   (LaTeX-add-xcolor-definecolors
+    "assassinblue"
+    "assassinred"))
  :latex)
 
