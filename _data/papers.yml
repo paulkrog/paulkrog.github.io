@@ -1,3 +1,14 @@
+- title: Deciding Accuracy of Differential Privacy Schemes
+  authors:
+  - Gilles Barthe
+  - Rohit Chadha
+  - Paul Krogmeier
+  - A. Prasad Sistla
+  - Mahesh Viswanathan
+  type:
+  venue: POPL 2021
+  url: /papers/DecAccPOPL21.pdf
+
 - title: Decidable Synthesis of Programs with Uninterpreted Functions
   authors:
   - Paul Krogmeier
@@ -6,10 +17,10 @@
   - P. Madhusudan
   - Mahesh Viswanathan
   type:
-  venue: To appear at CAV 2020
+  venue: CAV 2020
   # venue_url: https://popl20.sigplan.org
   # date: January 2020
-  url: /papers/DecUnintSynthArxiv.pdf
+  url: /papers/DecUnintSynthCav20.pdf
 
 - title: Deciding Memory Safety for Single-Pass Heap-Manipulating Programs
   authors:
