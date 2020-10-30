@@ -7,6 +7,7 @@
   - Mahesh Viswanathan
   type:
   venue: POPL 2021
+  venue_url: https://popl21.sigplan.org/
   url: /papers/DecAccPOPL21.pdf
 
 - title: Decidable Synthesis of Programs with Uninterpreted Functions
@@ -18,7 +19,7 @@
   - Mahesh Viswanathan
   type:
   venue: CAV 2020
-  # venue_url: https://popl20.sigplan.org
+  venue_url: https://easychair.org/smart-program/CAV2020/
   # date: January 2020
   url: /papers/DecUnintSynthCav20.pdf
 
