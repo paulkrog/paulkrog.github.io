@@ -17,6 +17,7 @@
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
+
 % character encoding
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
@@ -41,7 +42,7 @@
 \name{Paul}{Krogmeier}
 % \title{CV}                               % optional, remove / comment the line if not wanted
 \address{202 N Race St, Urbana IL, 61801}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
-% \phone[mobile]{+1 765 404 6297}                   % optional, remove / comment the line if not wanted
+\phone[mobile]{+1 765 404 6297}                   % optional, remove / comment the line if not wanted
 %\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
 \email{paulmk2@illinois.edu}                               % optional, remove / comment the line if not wanted
@@ -190,7 +191,7 @@
 \begin{itemize}
 \item \emph{Deciding Accuracy of Differential Privacy
     Schemes}. Gilles Barthe, Rohit Chadha, Paul Krogmeier, Aravinda
-  Sistla, Mahesh Viswanathan. Conditionally accepted to POPL 2021.
+  Sistla, Mahesh Viswanathan. To appear POPL 2021.
   \vspace{10pt}
 \item \emph{Decidable Synthesis of Programs with Uninterpreted
     Functions}.  Paul Krogmeier, P. Madhusudan, Umang Mathur, Adithya
@@ -221,13 +222,13 @@
 \section{Teaching}
 \label{sec:teaching}
 
-\cventry{Fall 2019}{Teaching Assistant}{Programming Languages and
-  Compilers (CS 421)}{Urbana, IL}{}{\vspace{3pt}
+\cventry{Fall 2019, Fall 2020}{Teaching Assistant}{Programming
+  Languages and Compilers (CS 421)}{Urbana, IL}{}{\vspace{3pt}
   \parbox{0.75\linewidth}{Duties:
     \begin{itemize}
     \item Debugging student code in biweekly office hours
     \item Answering piazza questions
-    \item Maintaining and releasing Ocaml assignments
+    \item Maintaining and releasing Ocaml/Haskell assignments
     \end{itemize}}} \cventry{Fall 2015}{Teaching Assistant}{Discrete
   Math (ECE 369)}{West Lafayette, IN}{}{\vspace{3pt}
   \parbox{0.75\linewidth}{Duties:
@@ -481,15 +482,22 @@
 % \newpage
 % \section{Research Summary References and Figure}
 % \vspace{0.5in}
+
+% moderncv class seems to not support float environments, including
+% figures, so need to just just a png
+
 % \input{../../images/fok-problem}
+
 % \begin{minipage}{\textwidth}
 %   \centering
 % \includegraphics[width=\textwidth]{fok-example.png}
 % \end{minipage}
 
+
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
 %  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+
 % \nocite{*}
 % \bibliographystyle{plain}
 % \bibliography{../../bib}

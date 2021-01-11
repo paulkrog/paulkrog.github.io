@@ -17,8 +17,6 @@
     '("MYhref" ["argument"] 2))
    (LaTeX-add-labels
     "sec:teaching")
-   (LaTeX-add-bibliographies
-    "publications")
    (LaTeX-add-xcolor-definecolors
     "assassinblue"
     "assassinred"))
