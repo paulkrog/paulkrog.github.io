@@ -1,3 +1,12 @@
+- title: Learning Formulas in Finite Variable Logics
+  authors:
+  - Paul Krogmeier
+  - P. Madhusudan
+  type:
+  venue: Distinguished Paper Award at POPL 2022
+  venue_url: https://popl22.sigplan.org/
+  url: /papers/LearningFormulasPOPL22.pdf
+
 - title: Deciding Accuracy of Differential Privacy Schemes
   authors:
   - Gilles Barthe
@@ -6,7 +15,7 @@
   - A. Prasad Sistla
   - Mahesh Viswanathan
   type:
-  venue: Conditionally accepted to POPL 2021
+  venue: POPL 2021
   venue_url: https://popl21.sigplan.org/
   url: /papers/DecAccPOPL21.pdf
 
