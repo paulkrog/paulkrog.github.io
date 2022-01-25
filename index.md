@@ -22,14 +22,3 @@ machine learning. I also like jamming jazz on my saxophone.
 {% include paper.html paper=paper %}
 {% endfor %}
 </section>
-
-<!-- ## Thoughts -->
-
-<!-- <section id="thoughts"> -->
-<!-- {% for thought in site.thoughts %} -->
-<!-- <div class="thought-item"> -->
-<!-- <div class="date"> {{ thought.date | date: "%b&nbsp;%-d" }} </div> -->
-<!-- <div class="content"> {{ thought.content }} </div> -->
-<!-- </div> -->
-<!-- {% endfor %} -->
-<!-- </section> -->
