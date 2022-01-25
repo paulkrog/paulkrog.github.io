@@ -4,12 +4,8 @@ layout: experimental
 
 My name is Paul Krogmeier. I'm a PhD student at the [University of
 Illinois at Urbana-Champaign][uiuc] in the department of [Computer
-Science][cs]. Some of my academic interests include mathematical
-logic, formal verification, and logical foundations for machine
-learning.
-
-I enjoy playing saxophone, running, skiing, traveling, and learning
-new languages.
+Science][cs] thinking about program synthesis, verification, and
+machine learning. I also like jamming jazz on my saxophone.
 
 [purdue]: http://www.purdue.edu
 [ece]: https://engineering.purdue.edu/ECE
