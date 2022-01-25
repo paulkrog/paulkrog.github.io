@@ -4,10 +4,7 @@ layout: experimental
 
 My name is Paul Krogmeier. I'm a PhD student at the [University of
 Illinois at Urbana-Champaign][uiuc] in the department of [Computer
-Science][cs]. <!-- I'm working with Professor [Ben --> <!--
-Delaware][ben] on a deep embedding of [Fiat][fiat] in Coq. I'm also a
---> <!-- member of our programming languages group,
-[PurPL][purpl]. --> Some of my academic interests include mathematical
+Science][cs]. Some of my academic interests include mathematical
 logic, formal verification, and logical foundations for machine
 learning.
 
