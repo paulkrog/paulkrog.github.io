@@ -16,8 +16,7 @@
    (TeX-add-symbols
     '("MYhref" ["argument"] 2))
    (LaTeX-add-labels
-    "sec:teaching"
-    "sec:service")
+    "sec:teaching")
    (LaTeX-add-xcolor-definecolors
     "assassinblue"
     "assassinred"))
