@@ -1,3 +1,24 @@
+- title: Synthesizing Axiomatizations using Logic Learning
+  authors:
+  - Paul Krogmeier
+  - Zhengyao Lin
+  - Adithya Murali
+  - P. Madhusudan
+  type:
+  venue: OOPSLA 2022
+  venue_url: https://2022.splashcon.org/track/splash-2022-oopsla
+
+- title: Composing Neural Learning and Symbolic Reasoning with an Application to Visual Discrimination
+  authors:
+  - Adithya Murali
+  - Atharva Sehgal
+  - Paul Krogmeier
+  - P. Madhusudan
+  type:
+  venue: IJCAI 2022
+  venue_url: https://ijcai-22.org/
+  url: /papers/vdp.pdf
+
 - title: Learning Formulas in Finite Variable Logics
   authors:
   - Paul Krogmeier
