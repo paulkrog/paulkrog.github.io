@@ -42,6 +42,11 @@ a {
     color: $zengreen;
 }
 
+justplaingreen {
+    text-decoration: none;
+    color: $zengreen;
+}
+
 a:hover, a:focus, a.active {
     text-decoration: underline;
     color: $zenbaby;

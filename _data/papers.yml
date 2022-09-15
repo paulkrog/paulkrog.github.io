@@ -7,6 +7,7 @@
   type:
   venue: OOPSLA 2022
   venue_url: https://2022.splashcon.org/track/splash-2022-oopsla
+  url: https://paulkrog.github.io/
 
 - title: Composing Neural Learning and Symbolic Reasoning with an Application to Visual Discrimination
   authors:
