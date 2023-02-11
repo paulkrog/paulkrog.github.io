@@ -1,3 +1,12 @@
+- title: Languages With Decidable Learning: A Meta-Theorem
+  authors:
+  - Paul Krogmeier
+  - P. Madhusudan
+  type:
+  venue: Conditionally Accepted at OOPSLA 2023
+  venue_url: https://2023.splashcon.org/track/splash-2023-oopsla
+  url: /papers/MetaTheorem.pdf
+
 - title: Synthesizing Axiomatizations using Logic Learning
   authors:
   - Paul Krogmeier
