@@ -4,8 +4,8 @@ layout: experimental
 
 My name is Paul Krogmeier. I'm a PhD student at the [University of
 Illinois at Urbana-Champaign][uiuc] in the department of [Computer
-Science][cs] thinking about program synthesis, verification, and
-machine learning. I also like jamming jazz on my saxophone.
+Science][cs] working on problems in program synthesis, verification,
+and machine learning. I also play saxophone and enjoy jazz jamming.
 
 [purdue]: http://www.purdue.edu
 [ece]: https://engineering.purdue.edu/ECE
