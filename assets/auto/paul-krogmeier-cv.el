@@ -17,9 +17,6 @@
     '("MYhref" ["argument"] 2))
    (LaTeX-add-labels
     "sec:teaching")
-   (LaTeX-add-environments
-    '("slogan" LaTeX-env-args ["argument"] 0)
-    '("theme" LaTeX-env-args ["argument"] 0))
    (LaTeX-add-xcolor-definecolors
     "assassinblue"
     "assassinred"))
