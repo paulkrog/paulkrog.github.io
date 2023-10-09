@@ -11,12 +11,22 @@
 </dd>
 
 {% if paper.venue %}
+{% if paper.special %}
+<dd class="paper-venue">
+  {% include link.html
+  url=paper.venue_url
+  text=paper.venue
+  special=true
+  %}
+</dd>
+{% else %}
 <dd class="paper-venue">
   {% include link.html
   url=paper.venue_url
   text=paper.venue
   %}
 </dd>
+{% endif %}
 {% endif %}
 
 {% if paper.extra %}

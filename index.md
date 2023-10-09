@@ -8,11 +8,6 @@ Science][cs] working on problems in program synthesis, verification,
 and machine learning. I am also an avid saxophone player and love
 jazz.
 
-[purdue]: http://www.purdue.edu
-[ece]: https://engineering.purdue.edu/ECE
-[ben]: https://www.cs.purdue.edu/homes/bendy
-[fiat]: http://plv.csail.mit.edu/fiat/
-[purpl]: http://purduepl.github.io/
 [uiuc]: https://illinois.edu/
 [cs]: https://cs.illinois.edu/
 

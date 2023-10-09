@@ -35,6 +35,7 @@
   - P. Madhusudan
   type:
   venue: Distinguished Paper Award at POPL 2022
+  special: true
   venue_url: https://popl22.sigplan.org/
   url: /papers/LearningFormulasPOPL22.pdf
 

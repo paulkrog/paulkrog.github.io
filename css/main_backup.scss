@@ -3,22 +3,12 @@
 /* ^ needed for jekyll */
 
 $zengreen: #8FAF9F;
-$zendarkgreen: #5F7F6F;
 $zenbaby: #DCA3A3;
-$zendarkpink: #aC7373;
 $zencream: #F0DFAF;
-$zendarkcream: #F7e6b6;
-$zendarkcream2: #Ffeebe;
-$zenblue: #8CD0D3;
-$zendarkblue: #2C7083;
 $zenleaf: #EFEFEF;
 $zendark: #3F3F3F;
-$zendark2: #4F4F4F;
-$zenlight1: #DCDCCC;
-$zenbackground: $zendarkcream2;
-$zentext: $zendark2;
-$pink: $zenbaby;
-$dark: $zendark2;
+$zenbackground: $zendark;
+$zentext: #DCDCCC;
 
 // $desktop-width: 40em;
 $desktop-width: 50em;
@@ -41,8 +31,7 @@ html {
 }
 
 body {
-    // font-family: DejaVu Sans Mono;
-    font-family: 'Tinos';
+    font-family: DejaVu Sans Mono;
     margin: 0 auto; /* center the page */
     max-width: $desktop-width + 10em;
     color: $zentext;
@@ -50,22 +39,12 @@ body {
 
 a {
     text-decoration: none;
-    color: $zendarkgreen;
-}
-
-highlight {
-    text-decoration: bold;
-    color: $zenbaby;
-}
-
-paper-venue {
-    text-decoration: bold;
-    color: $zenbaby;
+    color: $zengreen;
 }
 
 justplaingreen {
     text-decoration: none;
-    color: $zendarkgreen;
+    color: $zengreen;
 }
 
 a:hover, a:focus, a.active {
@@ -119,11 +98,11 @@ img {
 }
 
 h1 {
-    color: $dark;
+    color: $zencream;
 }
 
 h2 {
-    color: $dark;
+    color: $zenbaby;
 }
 
 .news-item {
