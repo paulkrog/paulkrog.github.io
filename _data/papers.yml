@@ -3,7 +3,8 @@
   - Paul Krogmeier
   - P. Madhusudan
   type:
-  venue: OOPSLA 2023
+  venue: Distinguished Paper Award at OOPSLA 2023
+  special: true
   venue_url: https://2023.splashcon.org/track/splash-2023-oopsla
   url: /papers/MetaTheorem.pdf
 
