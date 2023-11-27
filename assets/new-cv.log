@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.1)  6 NOV 2023 20:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.1)  26 NOV 2023 19:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -986,93 +986,119 @@ surrounding objects on input line 60.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 75.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 85.
+surrounding objects on input line 77.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 87.
 
 
-Underfull \hbox (badness 10000) in alignment at lines 90--95
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 89.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 92--97
 []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 96--100
+Underfull \hbox (badness 10000) in alignment at lines 98--102
 []
  []
 
 
-Overfull \hbox (2.64462pt too wide) in alignment at lines 101--105
+Overfull \hbox (2.64462pt too wide) in alignment at lines 103--107
 []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 106--110
+Underfull \hbox (badness 10000) in alignment at lines 108--112
 []
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5446) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 111.
+(Font)              scaled to size 9.0pt on input line 113.
  [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in alignment at lines 111--116
+Underfull \hbox (badness 10000) in alignment at lines 113--118
 []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 117--123
+Underfull \hbox (badness 10000) in alignment at lines 119--125
 []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 124--130
-[]
- []
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 135.
-
-
-Underfull \hbox (badness 10000) in alignment at lines 138--142
+Underfull \hbox (badness 10000) in alignment at lines 126--132
 []
  []
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 146.
+surrounding objects on input line 137.
 
 
-Underfull \hbox (badness 10000) in alignment at lines 149--152
-[]
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 153--156
+Underfull \hbox (badness 10000) in alignment at lines 140--144
 []
  []
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 160.
+surrounding objects on input line 149.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 155.
+
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 171.
+surrounding objects on input line 157.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 152--158
+[]
+ []
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 161.
+
+
+
+Underfull \hbox (badness 10000) in alignment at lines 159--165
+[]
+ []
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 169.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 172--175
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 176--179
+[]
+ []
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 183.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 194.
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 200.
+(Font)              scaled to size 10.0pt on input line 206.
+
 
 Package Fancyhdr Warning: \footskip is too small (12.0pt): 
 Make it at least 14.0pt.
@@ -1083,32 +1109,52 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.200 \end{enumerate}
-                      [2.2]
+l.206 \item[]
+              [2.2]
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 202.
+surrounding objects on input line 217.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 225.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 229.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 251.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 260.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 \end{document}
+l.262 \end{document}
                      [3.3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
  (./new-cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
 Package rerunfilecheck Info: File `new-cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 19152 strings out of 481239
- 292665 string characters out of 5920378
- 748072 words of memory out of 5000000
- 33836 multiletter control sequences out of 15000+600000
- 616837 words of font info for 123 fonts, out of 8000000 for 9000
+ 19156 strings out of 481239
+ 292694 string characters out of 5920378
+ 749072 words of memory out of 5000000
+ 33839 multiletter control sequences out of 15000+600000
+ 616679 words of font info for 122 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  63i,11n,100p,797b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/us
@@ -1120,10 +1166,10 @@ mf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on new-cv.pdf (3 pages, 278244 bytes).
+Output written on new-cv.pdf (3 pages, 280509 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 76 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
  17933 words of extra memory for PDF output out of 20736 (max. 10000000)
 

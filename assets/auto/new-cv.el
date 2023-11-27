@@ -20,8 +20,11 @@
    (LaTeX-add-labels
     "sec:research-interests"
     "sec:worksh-publ"
+    "sec:wip"
     "sec:teaching"
-    "sec:service")
+    "sec:service"
+    "sec:student-workshops"
+    "sec:misc")
    (LaTeX-add-xcolor-definecolors
     "zgreen"))
  :latex)
