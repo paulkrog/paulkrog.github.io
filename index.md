@@ -18,4 +18,7 @@ an avid jazz saxophone player.
 {% for paper in site.data.papers %}
 {% include paper.html paper=paper %}
 {% endfor %}
+
+<br>
+*equal contribution
 </section>
