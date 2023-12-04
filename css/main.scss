@@ -5,7 +5,7 @@
 $zengreen: #8FAF9F;
 $zendarkgreen: #5F7F6F;
 $zenbaby: #DCA3A3;
-$zendarkpink: #aC7373;
+$zendarkpink: #cf9696;
 $zencream: #F0DFAF;
 $zendarkcream: #F7e6b6;
 $zendarkcream2: #Ffeebe;
@@ -19,6 +19,7 @@ $zenbackground: $zendarkcream2;
 $zentext: $zendark2;
 $pink: $zenbaby;
 $dark: $zendark2;
+$deep-orange: #cc8383;
 
 // $desktop-width: 40em;
 $desktop-width: 50em;
@@ -116,6 +117,10 @@ img {
          font-size: 90%; }
 
     .author .me { font-weight:bold; }
+}
+
+#job {
+    color: $deep-orange
 }
 
 h1 {
