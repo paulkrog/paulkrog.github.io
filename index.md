@@ -7,7 +7,7 @@ Illinois at Urbana-Champaign][uiuc] in the department of [Computer
 Science][cs] interested in program synthesis, logic, and AI. I am also
 an avid jazz saxophone player.
 
-<h3 id="job">I am on the faculty job market.</h3>
+<!-- <h3 id="job">I am on the faculty job market.</h3> -->
 
 [uiuc]: https://illinois.edu/
 [cs]: https://cs.illinois.edu/
