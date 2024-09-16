@@ -13,7 +13,8 @@
     "xcolor"
     "lipsum"
     "setspace"
-    "enumitem")
+    "enumitem"
+    "titlesec")
    (TeX-add-symbols
     '("myh" ["argument"] 2)
     "shorttitle")

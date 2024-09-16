@@ -5,6 +5,9 @@
 \usepackage{lipsum}
 \usepackage{setspace}
 \usepackage{enumitem}
+\usepackage{titlesec}
+% \usepackage{libertinus}  % Loads the Linux Libertine font
+\titleformat{\section}[block]{\normalsize\bfseries\sffamily}{\thesection}{1em}{}
 
 \definecolor{zgreen}{HTML}{2F4F3F}
 \newcommand{\myh}[3][zgreen]{\href{#2}{\color{#1}{#3}}}
@@ -30,7 +33,7 @@
 
 \noindent \myh{https://paulkrog.github.io}{https://paulkrog.github.io}
 
-\section*{Education}
+\section*{\MakeUppercase{Education}}
 
 \vspace{0.2in}
 
@@ -55,7 +58,7 @@
 
 \vspace{0.1in}
 
-\section*{Research Interests}
+\section*{\MakeUppercase{Research Interests}}
 \label{sec:research-interests}
 
 \vspace{0.2in}
@@ -63,17 +66,18 @@
 \item[] \begin{singlespace}
 \noindent
 My interests are in the foundations of \textbf{symbolic learning and
-  reasoning}, with a focus on the algorithmic problem of how to learn
-symbolic concepts over \textbf{structured data} like sequences, trees,
+  reasoning}, with a focus on the problem of learning symbolic
+concepts that describe \textbf{structured data} like sequences, trees,
 graphs, or states of computer programs. This encompasses program
 synthesis from examples as well as learning classifiers expressed in
 logic. Recently, I have been exploring how to \textbf{synthesize
-  domain-specific languages} to support efficient few-shot learning.
+  domain-specific languages} to support efficient few-shot symbolic
+learning.
 \end{singlespace}
 \end{enumerate}
 
 
-\section*{Awards}
+\section*{\MakeUppercase{Awards}}
 \vspace{0.2in}
 
 \noindent
@@ -85,7 +89,7 @@ logic. Recently, I have been exploring how to \textbf{synthesize
 \end{tabular*}
 
 \vspace{0.1in}
-\section*{Refereed Conference Publications}
+\section*{\MakeUppercase{Refereed Conference Publications}}
 \vspace{0.2in}
 
 \begin{enumerate}[itemsep=16pt]
@@ -168,7 +172,7 @@ logic. Recently, I have been exploring how to \textbf{synthesize
   Article 35 (January 2020), 29 pages. \myh{https://doi.org/10.1145/3371103}{https://doi.org/10.1145/3371103}
 \end{enumerate}
 
-\section*{Workshop Publications}
+\section*{\MakeUppercase{Workshop Publications}}
 \label{sec:worksh-publ}
 \vspace{0.1in}
 
@@ -180,7 +184,7 @@ logic. Recently, I have been exploring how to \textbf{synthesize
         \end{tabular*}
 \end{enumerate}
 
-\section*{Work in Progress}
+\section*{\MakeUppercase{Work in Progress}}
 \label{sec:wip}
 \vspace{0.1in}
 
@@ -201,22 +205,25 @@ logic. Recently, I have been exploring how to \textbf{synthesize
         \end{tabular*}
 \end{enumerate}
 
-\section*{Invited Talks}
+\section*{\MakeUppercase{Invited Talks}}
 \vspace{0.1in}
 
 \begin{enumerate}[itemsep=6pt]
-\item[] \begin{tabular*}{1.0\linewidth}[l]{l} Languages with Decidable
-          Learning: a Meta-theorem. \\
-          Boston University, Mar 2023.
-        \end{tabular*}
-\item[] \begin{tabular*}{1.0\linewidth}[l]{l} Learning Formulas in Finite-Variable Logics. \\
-          Department of Software Engineering, St. Petersburg
-  State University, Mar 2022.
-        \end{tabular*}
+\item[] \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+  Learning Symbolic Concepts and Domain-specific Languages & MIT EECS, Apr 2024\\
+                                                           & Houston CS, Apr 2024 \\
+                                                           & Purdue ECE/CS, Mar 2024
+\end{tabular*}
+\item[] \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+  Languages with Decidable Learning: a Meta-theorem & Boston U. CS, Mar 2023
+\end{tabular*}
+\item[] \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+  Learning Formulas in Finite-Variable Logics & St. Petersburg State University, Mar 2022
+\end{tabular*}
 \end{enumerate}
 
 \vspace{0.1in}
-\section*{Invited Workshops}
+\section*{\MakeUppercase{Invited Workshops}}
 \vspace{0.2in}
 
 \begin{enumerate}[itemsep=6pt]
@@ -227,7 +234,7 @@ logic. Recently, I have been exploring how to \textbf{synthesize
 \end{enumerate}
 \vspace{0.2in}
 
-\section*{Teaching}
+\section*{\MakeUppercase{Teaching}}
 \label{sec:teaching}
 \vspace{0.2in}
 
@@ -239,7 +246,9 @@ logic. Recently, I have been exploring how to \textbf{synthesize
     & Fall 2019, Fall 2020, \\ & Spring 2021, Fall 2021 \\ & Spring
                                                              2022, Fall
                                                              2022, \\
-                                                & Spring 2023, Fall 2023
+                                                & Spring 2023, Fall
+                                                  2023, \\
+                                                & Fall 2024
   \end{tabular*}
 \item[]
     \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
@@ -250,7 +259,7 @@ logic. Recently, I have been exploring how to \textbf{synthesize
   \end{tabular*}
 \end{enumerate}
 
-\section*{Service}
+\section*{\MakeUppercase{Service}}
 \label{sec:service}
 \vspace{0.1in}
 
@@ -273,7 +282,7 @@ logic. Recently, I have been exploring how to \textbf{synthesize
 \end{enumerate}
 
 \vspace{0.2in}
-\section*{Mentoring}
+\section*{\MakeUppercase{Mentoring}}
 \label{sec:mentoring}
 \vspace{0.1in}
 
@@ -285,7 +294,7 @@ logic. Recently, I have been exploring how to \textbf{synthesize
 \end{enumerate}
 \vspace{0.2in}
 
-\section*{Student Workshops}
+\section*{\MakeUppercase{Student Workshops}}
 \label{sec:student-workshops}
 \vspace{0.2in}
 
@@ -307,7 +316,7 @@ logic. Recently, I have been exploring how to \textbf{synthesize
   \end{tabular*}
 \end{enumerate}
 
-\section*{Miscellany}
+\section*{\MakeUppercase{Miscellany}}
 \label{sec:misc}
 \vspace{0.1in}
 
