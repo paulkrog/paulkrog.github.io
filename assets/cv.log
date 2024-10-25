@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.26)  16 SEP 2024 09:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.26)  25 OCT 2024 15:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1108,7 +1108,7 @@ Class acmart Warning: \vspace should only be used to provide space above/below
 surrounding objects on input line 209.
 
 
-Underfull \vbox (badness 2644) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 220.
@@ -1137,43 +1137,35 @@ l.220 \item[]
 [2.2]
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 225.
+surrounding objects on input line 228.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 226.
+surrounding objects on input line 229.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 227.
+surrounding objects on input line 230.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 235.
+surrounding objects on input line 238.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 237.
+surrounding objects on input line 240.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 239.
+surrounding objects on input line 242.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 262.
+surrounding objects on input line 265.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 264.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 284.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 285.
+surrounding objects on input line 267.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
@@ -1181,23 +1173,27 @@ surrounding objects on input line 287.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 295.
+surrounding objects on input line 288.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 297.
+surrounding objects on input line 290.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 299.
+surrounding objects on input line 298.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 319.
+surrounding objects on input line 300.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 321.
+surrounding objects on input line 302.
+
+
+Underfull \vbox (badness 2503) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1216,11 +1212,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.325 \item[]
-              Jazz alto saxophonist with substantial performance and [3.3]
+l.310 \item[]
+              [3.3]
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 330.
+surrounding objects on input line 322.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 324.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 333.
 
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
@@ -1245,7 +1249,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.332 \end{document}
+l.335 \end{document}
                      [4.4] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1253,7 +1257,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  21516 strings out of 478287
  350017 string characters out of 5849289
- 773226 words of memory out of 5000000
+ 773471 words of memory out of 5000000
  39039 multiletter control sequences out of 15000+600000
  558832 words of font info for 162 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
@@ -1267,7 +1271,7 @@ mf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on cv.pdf (4 pages, 299359 bytes).
+Output written on cv.pdf (4 pages, 299489 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
