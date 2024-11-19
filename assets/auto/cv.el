@@ -27,6 +27,8 @@
     "sec:mentoring"
     "sec:student-workshops"
     "sec:misc")
+   (LaTeX-add-environments
+    '("theme" LaTeX-env-args ["argument"] 0))
    (LaTeX-add-xcolor-definecolors
     "zgreen"))
  :latex)
