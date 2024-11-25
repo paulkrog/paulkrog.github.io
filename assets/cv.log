@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.26)  18 NOV 2024 19:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.26)  25 NOV 2024 13:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1111,9 +1111,9 @@ surrounding objects on input line 209.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 220.
+(Font)              scaled to size 12.0pt on input line 222.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 220.
+(Font)              scaled to size 10.0pt on input line 222.
 
 
 Package fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1132,24 +1132,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.220 \item[]
+l.222 \item[]
               \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
 [2.2]
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 228.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 229.
-
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 230.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 238.
+surrounding objects on input line 231.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 232.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
@@ -1161,7 +1157,7 @@ surrounding objects on input line 242.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 265.
+surrounding objects on input line 244.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
@@ -1169,11 +1165,11 @@ surrounding objects on input line 267.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 292.
+surrounding objects on input line 269.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 293.
+surrounding objects on input line 294.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
@@ -1181,7 +1177,11 @@ surrounding objects on input line 295.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 303.
+surrounding objects on input line 297.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 305.
 
 
 Package fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1200,19 +1200,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.305 \section*{\MakeUppercase{Student Workshops}}
+l.307 \section*{\MakeUppercase{Student Workshops}}
                                                    [3.3]
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 305.
-
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 307.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 327.
+surrounding objects on input line 309.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
@@ -1220,7 +1216,11 @@ surrounding objects on input line 329.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 338.
+surrounding objects on input line 331.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 340.
 
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
@@ -1245,7 +1245,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.340 \end{document}
+l.342 \end{document}
                      [4.4] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1267,7 +1267,7 @@ mf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on cv.pdf (4 pages, 299565 bytes).
+Output written on cv.pdf (4 pages, 299587 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
