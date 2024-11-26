@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.26)  25 NOV 2024 13:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.26)  26 NOV 2024 09:35
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1082,59 +1082,27 @@ Package hyperref Warning: Suppressing link with empty target on input line 195.
 
 
 
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 197.
-
-
-Underfull \hbox (badness 10000) in alignment at lines 192--198
+Underfull \hbox (badness 10000) in alignment at lines 192--199
 []
  []
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 201.
-
-
-
-Underfull \hbox (badness 10000) in alignment at lines 199--205
-[]
- []
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 208.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 209.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 222.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 222.
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 211.
 
 
-Package fancyhdr Warning: \headheight is too small (13.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.0pt}.
+Package hyperref Warning: Suppressing link with empty target on input line 223.
 
 
-Package fancyhdr Warning: \footskip is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{14.0pt}.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.222 \item[]
-              \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
-[2.2]
+Underfull \hbox (badness 10000) in alignment at lines 221--227
+[]
+ []
+
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 230.
@@ -1144,44 +1112,12 @@ Class acmart Warning: \vspace should only be used to provide space above/below
 surrounding objects on input line 231.
 
 
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 232.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 240.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 242.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 244.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 267.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 269.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 294.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 295.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 297.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 305.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 244.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 244.
 
 
 Package fancyhdr Warning: \headheight is too small (13.0pt): 
@@ -1200,16 +1136,76 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.307 \section*{\MakeUppercase{Student Workshops}}
+l.244 \item[]
+              \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+[2.2]
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 252.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 253.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 254.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 262.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 264.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 266.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 289.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 291.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 316.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 317.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 319.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 327.
+
+
+Package fancyhdr Warning: \headheight is too small (13.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.0pt}.
+
+
+Package fancyhdr Warning: \footskip is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{14.0pt}.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.329 \section*{\MakeUppercase{Student Workshops}}
                                                    [3.3]
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 307.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 309.
-
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 329.
@@ -1220,7 +1216,15 @@ surrounding objects on input line 331.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 340.
+surrounding objects on input line 351.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 353.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 362.
 
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
@@ -1245,16 +1249,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.342 \end{document}
+l.364 \end{document}
                      [4.4] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21516 strings out of 478287
- 350017 string characters out of 5849289
- 773471 words of memory out of 5000000
- 39039 multiletter control sequences out of 15000+600000
+ 21517 strings out of 478287
+ 350039 string characters out of 5849289
+ 773492 words of memory out of 5000000
+ 39040 multiletter control sequences out of 15000+600000
  558832 words of font info for 162 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  84i,11n,131p,999b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1267,7 +1271,7 @@ mf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on cv.pdf (4 pages, 299587 bytes).
+Output written on cv.pdf (4 pages, 299578 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream

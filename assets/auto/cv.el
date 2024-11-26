@@ -21,6 +21,7 @@
    (LaTeX-add-labels
     "sec:research-interests"
     "sec:worksh-publ"
+    "sec:under-submission"
     "sec:wip"
     "sec:teaching"
     "sec:service"
