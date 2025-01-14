@@ -18,7 +18,8 @@ about anything below.
 <li>Language-universal techniques for putting symbolic knowledge into
 machine learning models</li>
 <li>Data- and algorithm-driven techniques for making conjectures in math and science</li>
-<li>Computational universality in the presence of errors</li>
+<li>Computational universality with errors: how can
+finitely-accurate processes perform universal computations?</li>
 <li>Open-ended evolution, especially of language</li>
 <li>Rigorous characterization of creative processes</li>
 </ul>
