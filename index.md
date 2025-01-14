@@ -17,7 +17,7 @@ about anything below.
 <li>Bridges between natural language and formal computer language</li>
 <li>Language-general techniques for putting symbolic knowledge into machine learning models</li>
 <li>Data-driven, automated construction of DSLs</li>
-<li>Data- and algorithm-driven techniques for making conjectures in math and science</li>
+<li>Data-driven techniques for making conjectures in math and science</li>
 <li>Computational universality with errors: how can finitely-accurate processes perform universal computations?</li>
 <li>Formal expressivity and algorithmic capabilities of neural architectures</li>
 <li>Open-ended evolution, especially of language</li>
