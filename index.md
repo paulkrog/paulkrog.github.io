@@ -21,7 +21,7 @@ you'd like to talk about anything below.
 <li>Data-driven techniques for making conjectures in math and science</li>
 <li>Computational universality with errors: how can finitely-accurate processes perform universal computations?</li>
 <li>Formal expressivity and algorithmic capabilities of neural architectures</li>
-<li>Open-ended evolution, especially of language</li>
+<li>Open-ended evolution, especially of language, and connections between evolution and learning</li>
 <li>Human-computer collaborative music improvisation</li>
 <li>Rigorous, logical characterization of creative processes</li>
 </ul>
