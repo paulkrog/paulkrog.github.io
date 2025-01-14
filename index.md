@@ -21,7 +21,7 @@ machine learning models</li>
 <li>Computational universality with errors: how can
 finitely-accurate processes perform universal computations?</li>
 <li>Open-ended evolution, especially of language</li>
-<li>Rigorous characterization of creative processes</li>
+<li>Rigorous, logical characterization of creative processes</li>
 </ul>
 </section>
 
