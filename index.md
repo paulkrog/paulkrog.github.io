@@ -10,7 +10,7 @@ about anything below.
 
 <h3 id="job">I'm on the faculty job market.</h3>
 
-## Current Interests
+## Budding Interests
 
 <section id="interests">
 <ul>
