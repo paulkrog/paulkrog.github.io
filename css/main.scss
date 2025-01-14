@@ -22,7 +22,7 @@ $dark: $zendark2;
 $deep-orange: #cc8383;
 
 // $desktop-width: 40em;
-$desktop-width: 50em;
+$desktop-width: 60em;
 $mobile-width: 30em;
 
 @mixin desktop {
@@ -45,8 +45,8 @@ body {
     // font-family: DejaVu Sans Mono;
     font-family: 'Tinos';
     margin: 0 auto; /* center the page */
-    // max-width: $desktop-width + 10em;
-    max-width: 100%;
+    max-width: $desktop-width + 10em;
+    // max-width: 100%;
     color: $zentext;
 }
 
