@@ -21,7 +21,7 @@ $pink: $zenbaby;
 $dark: $zendark2;
 $deep-orange: #cc8383;
 
-$desktop-width: 40em;
+$desktop-width: 58em;
 // $desktop-width: 70em;
 $mobile-width: 30em;
 
@@ -43,6 +43,7 @@ html {
 
 body {
     // font-family: DejaVu Sans Mono;
+    font-size: 110%;
     font-family: 'Tinos';
     margin: 0 auto; /* center the page */
     max-width: $desktop-width + 10em;
