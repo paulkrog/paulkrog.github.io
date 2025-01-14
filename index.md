@@ -4,9 +4,10 @@ layout: experimental
 
 I am a PhD candidate at the [University of Illinois at
 Urbana-Champaign][uiuc] in the department of [Computer Science][cs]
-working with [Madhusudan Parthasarathy][madhu]. I am also an avid jazz
-alto saxophone player 🎷. Shoot me an email if you'd like to talk
-about anything below.
+working with [Madhusudan Parthasarathy][madhu]. My primary area of
+research touches programming languages, logic, and formal methods. I
+am also an avid jazz alto saxophone player 🎷. Shoot me an email if
+you'd like to talk about anything below.
 
 <h3 id="job">I'm on the faculty job market.</h3>
 
