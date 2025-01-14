@@ -30,8 +30,9 @@ machine learning models</li>
 <ul>
 
 <li><b>DSL synthesis:</b> foundational theory and algorithms for
-automatically synthesizing computer languages that succinctly capture
-domain-specific computations  </li>
+automatically synthesizing domain-specific languages that
+express relevant domain concepts succinctly and irrelevant ones less
+succinctly or not at all  </li>
 
 <li><b>Emergence of symbolic language:</b> developing a computational
 model in which symbolic language and abstraction are emergent outcomes
