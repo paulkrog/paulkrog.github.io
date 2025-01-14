@@ -1,10 +1,12 @@
+;; -*- lexical-binding: t; -*-
+
 (TeX-add-style-hook
  "cv"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("acmart" "sigchi" "12pt" "a4paper" "sans" "nonacm")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("inputenc" "utf8")))
+                     '(("inputenc" "utf8") ("xcolor" "") ("lipsum" "") ("setspace" "") ("enumitem" "") ("titlesec" "")))
    (TeX-run-style-hooks
     "latex2e"
     "acmart"
