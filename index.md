@@ -21,6 +21,7 @@ machine learning models</li>
 <li>Data- and algorithm-driven techniques for making conjectures in math and science</li>
 <li>Computational universality with errors: how can
 finitely-accurate processes perform universal computations?</li>
+<li>Formal expressivity and algorithmic capabilities of neural architectures</li>
 <li>Open-ended evolution, especially of language</li>
 <li>Human-computer collaborative music improvisation
 <li>Rigorous, logical characterization of creative processes</li>
