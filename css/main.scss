@@ -155,3 +155,21 @@ h2 {
     /* needed to ignore p from jekyll in news entries */
     .content>p { display: inline; margin: 0 }
 }
+
+/* added 1/14/25 */
+.custom-list {
+  list-style-type: disc; /* Standard bullet points */
+  margin: 0;
+  // padding: 0 20px;
+  padding: 0 40px;
+}
+
+.custom-list li {
+  margin-bottom: 0.3em; /* Add spacing between items */
+}
+
+.custom-list .subtext {
+  font-size: 0.95em; /* Slightly smaller text for subtext */
+  color: $zendarkgreen; /* Optional: Make subtext visually distinct */
+  margin: 0; /* Remove extra margin from <p> */
+}
