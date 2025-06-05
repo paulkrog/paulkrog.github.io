@@ -2,35 +2,36 @@
 layout: experimental
 ---
 
-I am a PhD candidate at the [University of Illinois at
-Urbana-Champaign][uiuc] in the department of [Computer Science][cs]
+I will start as an Assistant Professor in Computer Science at the
+[University of Colorado Boulder][cu] in the Fall of 2026. I received a
+PhD from the [University of Illinois][uiuc] in [Computer Science][cs]
 working with [Madhusudan Parthasarathy][madhu]. My primary area of
 research touches programming languages, logic, and formal methods. I
 am also an avid jazz alto saxophone player 🎷. Shoot me an email if
 you'd like to talk about anything below.
 
-<h3 id="job">I'm on the faculty job market.</h3>
+<!-- <h3 id="job">I'm on the faculty job market.</h3> -->
 
 ## Current Interests
 
 <section id="interests">
 <ul class="custom-list">
-<li>Bridges between natural language and formal computer language</li>
-<li>Language-general techniques for putting symbolic knowledge into machine learning models</li>
-<li>Data-driven, automated construction of DSLs</li>
-<li>Data-driven techniques for making conjectures in math and science</li>
+<!-- <li>Bridges between natural language and formal computer language</li> -->
+<li>Techniques for putting symbolic knowledge into machine learning models</li>
+<!-- <li>Data-driven, automated construction of DSLs</li> -->
+<!-- <li>Data-driven techniques for making conjectures in math and science</li> -->
 <li>Computational universality with errors:
 <p class="subtext"><i>How can finitely-accurate processes perform universal computations?</i></p>
 </li>
 <li>Formal expressivity and algorithmic capabilities of neural
 architecture classes</li>
-<li>Open-ended evolution, especially of language, and connections between evolution and learning</li>
-<li>Human-computer collaborative music improvisation</li>
+<li>Evolution of language and connections between evolution and learning</li>
+<!-- <li>Human-computer collaborative music improvisation</li> -->
 <li>Teaching computer science and music improvisation together:
 <p class="subtext"><i>Learning to improvise within classes of
 "regular" riffing patterns, adding a "stack", etc. </i></p>
 </li>
-<li>Rigorous, logical characterizations of creativity:
+<li>Rigorous characterizations of creativity:
 <p class="subtext"><i>What's the difference between creative processes and automatic processes?</i></p>
 </li>
 </ul>
@@ -50,12 +51,13 @@ succinctly or not at all  </li>
 model in which symbolic language and abstraction are emergent outcomes
 of computation</li>
 
-<li><b>Example-driven geometry proofs</b>: using small diagrams to guide
-auxiliary constructions in geometry proofs </li>
+<!-- <li><b>Example-driven geometry proofs</b>: using small diagrams to guide -->
+<!-- auxiliary constructions in geometry proofs </li> -->
 
 </ul>
 </section>
 
+[cu]: https://www.colorado.edu/cs/
 [uiuc]: https://illinois.edu/
 [cs]: https://cs.illinois.edu/
 [madhu]: https://madhu.cs.illinois.edu/
