@@ -4,11 +4,11 @@ layout: experimental
 
 I will start as an Assistant Professor in Computer Science at the
 [University of Colorado Boulder][cu] in the Fall of 2026. I received a
-PhD from the [University of Illinois][uiuc] in [Computer Science][cs]
-working with [Madhusudan Parthasarathy][madhu]. My primary area of
-research touches programming languages, logic, and formal methods. I
-am also an avid jazz alto saxophone player 🎷. Shoot me an email if
-you'd like to talk about anything below.
+PhD from the [University of Illinois][uiuc] advised by [Madhusudan
+Parthasarathy][madhu]. My primary area of research touches programming
+languages, logic, and formal methods. I am also an avid jazz alto
+saxophone player 🎷. Shoot me an email if you'd like to talk about
+anything below.
 
 <!-- <h3 id="job">I'm on the faculty job market.</h3> -->
 
