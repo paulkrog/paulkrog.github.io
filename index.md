@@ -2,22 +2,28 @@
 layout: experimental
 ---
 
-I will start as an Assistant Professor in Computer Science at the
-[University of Colorado Boulder][cu] in the Fall of 2026. I received a
-PhD from the [University of Illinois][uiuc] advised by [Madhusudan
-Parthasarathy][madhu]. My primary area of research touches programming
-languages, logic, and formal methods. I am also an avid jazz alto
-saxophone player 🎷. Shoot me an email if you'd like to talk about
-anything below.
+I received a PhD from the [University of Illinois][uiuc] advised by
+[Madhusudan Parthasarathy][madhu]. My primary area of research touches
+programming languages, logic, and formal methods. I am also an avid
+jazz alto saxophone player 🎷. Shoot me an email if you'd like to talk
+about anything below.
 
-<!-- <h3 id="job">I'm on the faculty job market.</h3> -->
+<!-- I will be an Assistant Professor in Computer Science at the -->
+<!-- [University of Colorado Boulder][cu] starting Fall of 2026.  -->
+
+<!-- <h3 id="job">I will be joining the University of Colorado Boulder as -->
+<!-- an Assistant Professor in Computer Science starting Fall -->
+<!-- of 2026. </h3> -->
+
+I will join the [University of Colorado Boulder][cu] as an
+Assistant Professor in computer science starting Fall 2026.
 
 ## Current Interests
 
 <section id="interests">
 <ul class="custom-list">
 <!-- <li>Bridges between natural language and formal computer language</li> -->
-<li>Techniques for putting symbolic knowledge into machine learning models</li>
+<li>How to make machine learning models more interpretable </li>
 <!-- <li>Data-driven, automated construction of DSLs</li> -->
 <!-- <li>Data-driven techniques for making conjectures in math and science</li> -->
 <li>Computational universality with errors:
@@ -42,7 +48,7 @@ architecture classes</li>
 <section id="projects">
 <ul class="custom-list">
 
-<li><b>DSL synthesis:</b> foundational theory and algorithms for
+<li><b>DSL synthesis:</b> theory and algorithms for
 automatically synthesizing DSLs that
 express relevant domain concepts succinctly and irrelevant ones less
 succinctly or not at all  </li>
