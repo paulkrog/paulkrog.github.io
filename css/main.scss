@@ -2,6 +2,9 @@
 ---
 /* ^ needed for jekyll */
 
+$burnt: #b37575;
+$dullblue: #8d9fa4;
+
 $zengreen: #8FAF9F;
 $zendarkgreen: #5F7F6F;
 $zenbaby: #DCA3A3;
@@ -15,13 +18,19 @@ $zenleaf: #EFEFEF;
 $zendark: #3F3F3F;
 $zendark2: #4F4F4F;
 $zenlight1: #DCDCCC;
-$zenbackground: $zendarkcream2;
+// $summer25: #ffeded;
+// $summer25: #fff4ed;
+// $summer25: #ffefd1;
+$summer25: #ffe8bc;
+// $zenbackground: $zendarkcream2;
+$zenbackground: $summer25;
 $zentext: $zendark2;
 $pink: $zenbaby;
 $dark: $zendark2;
 $deep-orange: #cc8383;
 
-$desktop-width: 58em;
+$desktop-width: 45em;
+// $desktop-width: 58em;
 // $desktop-width: 70em;
 $mobile-width: 30em;
 
@@ -53,26 +62,39 @@ body {
 
 a {
     text-decoration: none;
+    // color: $zendarkgreen;
+    color: $burnt;
+}
+
+.paper-title {
     color: $zendarkgreen;
+}
+
+.paper-venue {
+    color: $dullblue;
 }
 
 highlight {
     text-decoration: bold;
+    // text-decoration: none;
+    // font-weight: bold;
     color: $zenbaby;
 }
 
-paper-venue {
-    text-decoration: bold;
-    color: $zenbaby;
-}
+// paper-venue {
+//     text-decoration: bold;
+//     color: $zenbaby;
+// }
 
 justplaingreen {
     text-decoration: none;
     color: $zendarkgreen;
+    // color: $burnt;
 }
 
 a:hover, a:focus, a.active {
-    text-decoration: underline;
+    // text-decoration: underline;
+    text-decoration: bold;
     color: $zenbaby;
 }
 
@@ -99,7 +121,7 @@ main {
 }
 
 img {
-    max-width: 200px;
+    max-width: 240px;
     box-sizing: border-box;
     border-radius: 20px;
     border: 5px solid $zendark;
