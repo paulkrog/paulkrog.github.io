@@ -1,0 +1,553 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[12pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\definecolor{assassinblue}{RGB}{110,150,210}
+\definecolor{assassinred}{RGB}{192,106,111}
+
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+% \usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.80]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+\usepackage{xcolor}
+% \usepackage[colorlinks = true,
+%             linkcolor = blue,
+%             urlcolor  = blue,
+%             citecolor = blue,
+%             anchorcolor = blue]{hyperref}
+\newcommand{\MYhref}[3][assassinblue]{\href{#2}{\color{#1}{#3}}}%
+
+% personal data
+\name{Paul}{Krogmeier}
+% \title{CV}                               % optional, remove / comment the line if not wanted
+\address{202 N Race St, Urbana IL, 61801}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+1 765 404 6297}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{paulmk2@illinois.edu}                               % optional, remove / comment the line if not wanted
+\homepage{paulkrog.github.io}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+% Fix the vertical alignment of itemize bullets
+\renewcommand\labelitemi{%
+  \strut
+  \raisebox{1.5pt}{\textcolor {color1}{\tiny \faCircleO }}}
+
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+% \small{ Pursuing a PhD in computer science from the University of
+%   Illinois at Urbana-Champaign. }
+
+\section{Education}
+
+\vspace{3pt}
+
+\subsection{Graduate}
+
+\vspace{3pt}
+
+% \begin{itemize}
+
+\cventry{2018-}{ PhD Computer Science}{University of
+  Illinois at Urbana-Champaign}{Urbana}{{GPA: 3.92}}{}
+
+\cventry{2016--2018}{ M.Eng. Computer Engineering}{Purdue
+      University}{West Lafayette}{{GPA: 3.99}}{}
+
+%   \begin{itemize}
+%   \item{
+%       \textbf{Masters Project}
+%       \begin{itemize}
+%       \item \parbox{0.75\linewidth}{Metatheory proofs for the Fiat
+%           specification language in Coq and theory of
+%           \emph{context-aware} data refinement. }
+%       \end{itemize}
+%     }
+%   \item{\textbf{Teaching Assistant:}}
+%     \begin{itemize}
+%     \item ECE 369 -- Discrete Math
+%     \end{itemize}
+%   \end{itemize}
+% \end{itemize}
+
+\subsection{Undergraduate}
+
+\vspace{3pt}
+
+% \begin{itemize}
+
+\cventry{2012--2016}{ B.S. Computer Engineering}{Purdue
+      University}{West Lafayette}{{GPA: 4.0}}{}
+
+\cventry{Spring 2015}{Study Abroad}{EAFIT University}{Medellín,
+      Colombia}{Compilers and Operating Systems courses}{}  % arguments 3 to 6 can be left empty
+
+% \end{itemize}
+
+\vspace{2pt}
+
+% \subsection{Course Projects}
+
+% \vspace{3pt}
+
+% \begin{itemize}
+
+% \item{\cventry{Spring 2016}{ECE 477}{Digital Systems Senior Design}{}{}{\vspace{2pt} Designed, implemented, and machined a
+%       digital, MIDI-outputting trombone.
+%       \begin{itemize}
+%       \item UART communication with MIDI keyboard
+%       \item Captured player input with various sensors
+%       \item Designed, soldered, programmed, and debugged printed
+%         circuit board.
+%       \end{itemize}
+%     }}
+
+% \item{\cventry{Spring 2016}{ECE 437}{Computer
+%       Architecture}{}{}{\vspace{2pt} Programmed dual-core 5-stage
+%       pipelined processor in verilog.
+%       \begin{itemize}
+%       \item Implemented a subset of the MIPS ISA.
+%       \item Implemented cache coherency protocol for instruction and
+%         data caches.
+%       \item Implemented branch lookahead buffer.
+%       \end{itemize}
+%     }}
+
+% \end{itemize}
+
+% \subsection{Courses}
+
+% \begin{minipage}[t]{0.45\linewidth}
+%   \raggedright
+%   \textbf{Graduate}
+%   \begin{tabular}{ll}
+%     CE 642 -- Information Theory and Source Coding \\
+%     CS 590 -- Reasoning About Programs (Audit) \\
+%     CE 573 -- Compilers and Translator Systems \\
+%     CE 608 -- Computational Models and Methods \\
+%     CE 600 -- Probabilities and Random Processes \\
+%     CS 565 -- Programming Languages \\
+%     CS 590 -- Artificial Intelligence and Causal Inference \\
+%     CS 584 -- Theory of Computation and Complexity \\
+%     CS 573 -- Data Mining \\
+%   \end{tabular}
+% \end{minipage}
+% \hfill
+% \begin{minipage}[t]{0.45\linewidth}
+%   \raggedright
+%   \textbf{Undergraduate}
+%   \begin{tabular}{ll}
+%     CE 368 -- Algorithms and Data Structures \\
+%     CE 369 -- Discrete Math \\
+%     CE 364 -- Python and Bash Scripting Lab \\
+%     CE 337 -- ASIC Design Laboratory \\
+%     CE 437 -- Computer Architecture \\
+%     CE 477 -- Digital Systems Senior Design \\
+%   \end{tabular}
+% \end{minipage}
+
+\section{Publications}
+
+\vspace{4pt}
+\begin{itemize}
+\item \emph{Languages with Decidable Learning: a Meta-theorem}. Paul
+  Krogmeier and P. Madhusudan. OOPSLA 2023. \MYhref{https://paulkrog.github.io/papers/MetaTheorem.pdf}{preprint}  \vspace{10pt}
+\item \emph{Synthesizing Axiomatizations using Logic Learning}. Paul
+  Krogmeier, Zhengyao Lin, Adithya Murali, and P. Madhusudan. OOPSLA
+  2022. \MYhref{https://dl.acm.org/doi/pdf/10.1145/3563348}{paper}
+  \vspace{10pt}
+\item \emph{Composing Neural Learning and Symbolic Reasoning with an
+    Application to Visual Discrimination}. Adithya Murali, Atharva
+  Sehgal, Paul Krogmeier, and P. Madhusudan. IJCAI 2022. \MYhref{https://doi.org/10.24963/ijcai.2022/466}{paper}
+  \vspace{10pt}
+\item \emph{Learning Formulas in Finite Variable Logics}. Paul
+  Krogmeier and P. Madhusudan. \textbf{Distinguished paper} at POPL 2022. \MYhref{https://doi.org/10.1145/3498671}{paper}
+  \vspace{10pt}
+\item \emph{Deciding Accuracy of Differential Privacy
+    Schemes}. Gilles Barthe, Rohit Chadha, Paul Krogmeier, Aravinda
+  Sistla, Mahesh Viswanathan. POPL 2021. \MYhref{https://dl.acm.org/doi/abs/10.1145/3434289}{paper}
+  \vspace{10pt}
+\item \emph{Decidable Synthesis of Programs with Uninterpreted
+    Functions}.  Paul Krogmeier, P. Madhusudan, Umang Mathur, Adithya
+  Murali, Mahesh Viswanathan. CAV
+  2020. \MYhref{https://paper.springer.com/chapter/10.1007/978-3-030-53291-8_32}{paper}
+  \vspace{10pt}
+% \item[] Deciding Memory Safety for Single-Pass Heap-Manipulating
+%   Programs. Umang Mathur, Adithya Murali, Paul Krogmeier,
+%   P. Madhusudan, Mahesh Viswanathan. POPL
+%   2020. \MYhref{https://doi.org/10.1145/3371103}{paper}
+%   \vspace{8pt}
+% \item[] Umang Mathur, Adithya Murali, Paul Krogmeier, P. Madhusudan,
+%   and Mahesh Viswanathan. 2019. Deciding memory safety for single-pass
+%   heap-manipulating programs. Proc. ACM Program. Lang. 4, POPL,
+%   Article 35 (December 2019), 29
+%   pages. DOI:https://doi.org/10.1145/3371103
+%   \vspace{10pt}
+\item \emph{Deciding Memory Safety for Single-pass Heap-manipulating
+    Programs}. Umang Mathur, Adithya Murali, Paul Krogmeier,
+  P. Madhusudan, and Mahesh Viswanathan. POPL 2019.
+  \MYhref{https://doi.org/10.1145/3371103}{paper} \vspace{10pt}
+\item \emph{Towards Context-Aware Data Refinement}. Paul Krogmeier,
+  Steven Kidd, Benjamin Delaware. Fourth International Workshop on Coq
+  for Programming Languages, January
+  2018. \MYhref{https://popl18.sigplan.org/details/CoqPL-2018/4/Towards-Context-Aware-Data-Refinement}{paper}
+\end{itemize}
+
+\section{Teaching}
+\label{sec:teaching}
+
+\cventry{'23, '22, '21, '20, '19}{Teaching Assistant}{Programming
+  Languages and Compilers (CS 421)}{Urbana, IL}{}{\vspace{3pt}
+  \parbox{0.75\linewidth}{Duties:
+    \begin{itemize}
+    \item Debugging student code in biweekly office hours
+    \item Answering piazza questions
+    \item Maintaining and releasing Ocaml/Haskell assignments
+    \end{itemize}}} \cventry{Fall 2015}{Teaching Assistant}{Discrete
+  Math (ECE 369)}{West Lafayette, IN}{}{\vspace{3pt}
+  \parbox{0.75\linewidth}{Duties:
+    \begin{itemize}
+    \item Answering questions in biweekly office hours
+    \item Manage preparation and release of written math assignments
+    \item Grading written exams
+    \end{itemize}}}
+
+\section{Research Positions}
+
+\vspace{4pt}
+
+% \begin{itemize}
+
+% add CoqPL talk
+% \item{\cventry{Jun 2017}{Oregon Progamming Languages Summer
+%       School}{OPLSS 2017}{Eugene, Oregon}{}{\vspace{3pt}
+%       \parbox{0.75\linewidth}{Attended research lectures from experts
+%         in Programming Languages and Formal Methods. Participated in
+%         hands-on sessions for learning about current research software
+%         and techniques: Idris, PLT Redex}}}
+
+\cventry{Aug 2018--present}{Research Assistant (advisor: Madhusudan
+  Parthasarathy)}{Illinois Programming Languages and Formal
+  Methods}{Urbana, IL}{}{\vspace{3pt} \parbox{0.75\linewidth}{
+    \begin{itemize}
+    \item Thesis: Algorithms for learning first-order logic formulae
+      from data
+    \end{itemize}}}
+\vspace{2pt}
+
+\cventry{Aug 2017--Jul 2018}{Research Assistant (advised by Benjamin
+  Delaware)}{Purdue Programming Languages Group}{West Lafayette,
+  IN}{}{\vspace{3pt} \parbox{0.75\linewidth}{
+    \begin{itemize}
+    \item Modeled the syntax and semantics of the Fiat specification
+      language with a deep embedding in the Coq proof assistant.
+    \item Developed a mechanized proof of Fiat's type safety.
+    \item Formalized a logical relations proof strategy for validity
+      of refinement from Fiat specifications to implementations.
+    \end{itemize}}}
+\vspace{2pt}
+
+\cventry{Jan 2017--May 2017}{Research Assistant}{Purdue
+  University -- Machine Learning for SAT }{West
+  Lafayette, IN}{}{\vspace{3pt} \parbox{0.75\linewidth}{
+    \begin{itemize}
+    \item Studied the source code for the MiniSat SAT solver.
+    \item Implemented online thompson sampling algorithm to
+      learn reward function over SAT variables.
+    \item Tested usefulness of the extension against plain
+      MiniSat.
+    \end{itemize}}}
+\vspace{2pt}
+
+\cventry{Sep 2016--Dec 2016}{Student Programmer}{Purdue University -- E-Lab}{West
+  Lafayette}{}{\vspace{3pt} \parbox{0.75\linewidth}{
+    \begin{itemize}
+    \item Programmed Torch7 CNNs to solve image classification
+      problems.
+    \item Experimented with RNNs to study problems in speech
+      recognition.
+    \end{itemize}}}
+\vspace{2pt}
+
+\cventry{May 2016--Jul 2016}{Programming Internship}{APOLO Scientific
+  Computing Center}{Medellín, Colombia}{}{\vspace{3pt}
+  \parbox{0.75\linewidth}{
+    \begin{itemize}
+    \item Developed software to produce client usage reports for a
+      Linux Rocks cluster administrative team.
+    \item Wrote and debugged Python scripts to generate reports on
+      cluster load and usage characteristics. This involved learning
+      the APIs for the TORQUE and SLURM resource management tools.
+    \item Met weekly with development team to discuss progress.
+    \end{itemize}}}
+\vspace{2pt}
+
+\cventry{May 2014--Jul 2014}{Embedded Systems Programmer}{Purdue
+  University -- Open Ag Data Alliance}{West Lafayette}{}{\vspace{2pt}
+  \parbox{0.75\linewidth}{
+    \begin{itemize}
+    \item Developed C code for a wireless, embedded semi-truck weight
+      sensing application.
+    % \item Built a tool for truck drivers to quickly learn the weight
+    %   of their load through an app interface communicating wirelessly
+    %   with an embedded sensing application.
+    \item Interfaced Nordic system-on-chip to air pressure sensor over
+      $\mathsf{I^2C}$.
+    \item Programmed communication between Android app and
+      system-on-chip using Bluetooth Low Energy stack.
+    \end{itemize}
+  }}
+
+\vspace{4pt}
+
+% \end{itemize}
+
+\section{Invited Talks}
+
+\cventry{Mar 2023}{Boston University}{Languages with Decidable Learning: a Meta-theorem}{}{}{}
+\cventry{Mar 2022}{Department of Software Engineering, St. Petersburg
+  State University}{Learning Formulas in Finite-Variable Logics}{}{}{}
+
+% \cventry{Mar 2022}{SIGPLAN PL Perspectives}{Blog Post: Learning
+%   Formulas in Finite-Variable Logics}{}{}{}
+
+\section{Service}
+\label{sec:service}
+
+\cventry{}{ICALP 2023, LICS 2022}{External Reviewer}{}{}{}
+% \cventry{}{LICS 2022}{External Reviewer}{}{}{}
+
+\section{Invited Workshops and Schools}
+
+\vspace{4pt}
+
+\cventry{Jan 2020}{Student Participant}{2nd VMCAI Winter School}{New Orleans, LA}{}{\vspace{3pt} \parbox{0.75\linewidth}{}}
+
+\cventry{Sep 2019}{Invited Junior Researcher}{Dagstuhl Seminar on
+  Logic and Learning}{Schloss Dagstuhl, Germany}{}{\vspace{3pt} \parbox{0.75\linewidth}{
+        \begin{itemize}
+        \item[] The goal of this seminar was to explore ways of
+          combining logical knowledge with learning systems like
+          neural networks.
+        \end{itemize}}}
+
+    % include vmcai winter school and marktoberdorf invitation.
+
+\vspace{4pt}
+
+\cventry{May 2019}{Student Participant}{SRI Formal Methods Summer
+  School}{Atherton, California}{}{\vspace{3pt} \parbox{0.75\linewidth}{
+        \begin{itemize}
+        \item Experimented with EasyCrypt for Coq proofs security for
+          cryptographic protocols.
+        \item Experimented with the Viper verification language for
+          proving properties of heap-manipulating programs.
+          \end{itemize}}}
+\vspace{2pt}
+
+\cventry{Jun 2017}{Student Participant}{Oregon Programming Languages Summer
+      School}{Eugene, Oregon}{}{\vspace{3pt}
+      \parbox{0.75\linewidth}{
+        \begin{itemize}
+        \item Experimented with dependently-typed Idris and with
+          programming language semantics modelling in PLT Redex.
+        \item Attended research lectures from experts in programming
+          languages and formal methods.
+          \end{itemize}}}
+\vspace{2pt}
+
+
+
+\subsection{Coursework}
+% add UIUC courses and separate from Purdue
+\begin{minipage}[t]{0.45\linewidth}
+  \raggedright
+  \textbf{Graduate}
+  \begin{tabular}{ll}
+    CS 598 -- Algorithmic Game Theory \\
+    MA 570 -- Mathematical Logic \\
+    MA 511 -- Linear Algebra with Applications \\
+    CS 477 -- Formal Software Development \\
+    CE 642 -- Information Theory and Source Coding \\
+    CE 573 -- Compilers and Translator Systems \\
+    CE 608 -- Computational Models and Methods \\
+    CE 600 -- Probabilities and Random Processes \\
+    CS 565 -- Programming Languages \\
+    CS 590 -- Artificial Intelligence and Causal Inference \\
+    CS 584 -- Theory of Computation and Complexity \\
+    CS 573 -- Data Mining \\
+  \end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+  \raggedright
+  \textbf{Undergraduate}
+  \begin{tabular}{ll}
+    CE 368 -- Algorithms and Data Structures \\
+    CE 369 -- Discrete Math \\
+    CE 364 -- Python and Bash Scripting Lab \\
+    CE 337 -- ASIC Design Laboratory \\
+    CE 437 -- Computer Architecture \\
+    CE 477 -- Digital Systems Senior Design \\
+  \end{tabular}
+\end{minipage}
+% \begin{minipage}[t]{0.45\linewidth}
+%   \raggedright
+%   \textbf{Graduate}
+%   \begin{tabular}{ll}
+%     MA 511 -- Linear Algebra with Applications \\
+%     CE 642 -- Information Theory and Source Coding \\
+%     CS 590 -- Reasoning About Programs (Audit) \\
+%     CE 573 -- Compilers and Translator Systems \\
+%     CE 608 -- Computational Models and Methods \\
+%     CE 600 -- Probabilities and Random Processes \\
+%     CS 565 -- Programming Languages \\
+%     CS 590 -- Artificial Intelligence and Causal Inference \\
+%     CS 584 -- Theory of Computation and Complexity \\
+%     CS 573 -- Data Mining \\
+%   \end{tabular}
+% \end{minipage}
+% \hfill
+% \begin{minipage}[t]{0.45\linewidth}
+%   \raggedright
+%   \textbf{Undergraduate}
+%   \begin{tabular}{ll}
+%     CE 368 -- Algorithms and Data Structures \\
+%     CE 369 -- Discrete Math \\
+%     CE 364 -- Python and Bash Scripting Lab \\
+%     CE 337 -- ASIC Design Laboratory \\
+%     CE 437 -- Computer Architecture \\
+%     CE 477 -- Digital Systems Senior Design \\
+%   \end{tabular}
+% \end{minipage}
+
+\section{Skills}
+
+\vspace{4pt}
+
+\begin{itemize}
+
+\item \textbf{Programming Languages and Tools:} \\
+  High proficiency: Haskell, Ocaml, C/C++, Python
+  \\ Medium proficiency: Prolog, Java, Matlab, Verilog, Emacs
+  \\ Familiarity: Coq, Racket, Rosette, Idris, Lisp, x86, MIPS, Jekyll/HTML/CSS
+\vspace{4pt}
+
+% \item \textbf{Research Software:} Coq, Rosette, Sketch
+
+% \vspace{4pt}
+
+\item \textbf{Natural Languages:} Fluent in Spanish, German, and English (native)
+
+\vspace{4pt}
+
+% \item \textbf{Other:} Lead alto saxophone player in Purdue University
+%   Jazz Band
+
+\end{itemize}
+
+\section{Awards, Honors, Grants}
+
+\vspace{4pt}
+
+\begin{itemize}
+
+\item \textbf{ACM SIGPLAN PAC Travel Grant:} January 2020
+\vspace{4pt}
+\item \textbf{UIUC Wing Kai Cheng Fellowship:} August 2018
+\vspace{4pt}
+\item \textbf{Purdue Ross Fellowship:} May 2016
+\vspace{4pt}
+\item \textbf{Phi Beta Kappa:} May 2016
+\vspace{4pt}
+\item \textbf{Graduated ``with highest distinction'' (top in class,
+    Purdue ECE):} May 2016
+\vspace{4pt}
+\item \textbf{100K Strong in the Americas Scholarship:} August 2014
+
+\end{itemize}
+
+% \newpage
+% \section{Research Summary References and Figure}
+% \vspace{0.5in}
+
+% moderncv class seems to not support float environments, including
+% figures, so need to just just a png
+
+% \input{../../images/fok-problem}
+
+% \begin{minipage}{\textwidth}
+%   \centering
+% \includegraphics[width=\textwidth]{fok-example.png}
+% \end{minipage}
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+
+% \nocite{*}
+% \bibliographystyle{plain}
+% \bibliography{../../bib}
+% \nocite{Tversky1124}
+% \nocite{kahneman2011thinking}
+% \nocite{10.1007/978-3-030-53291-8_32}
+% \nocite{10.1145/3371103}
+% \nocite{10.5555/3241691.3241692}
+% \nocite{NIPS2018_7632}
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+
+\end{document}
+
+
+%% end of file `template.tex'.

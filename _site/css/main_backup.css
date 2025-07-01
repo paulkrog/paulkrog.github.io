@@ -1,0 +1,41 @@
+/* ^ needed for jekyll */
+html { background-color: #3F3F3F; }
+
+body { font-family: DejaVu Sans Mono; margin: 0 auto; /* center the page */ max-width: 60em; color: #DCDCCC; }
+
+a { text-decoration: none; color: #8FAF9F; }
+
+justplaingreen { text-decoration: none; color: #8FAF9F; }
+
+a:hover, a:focus, a.active { text-decoration: underline; color: #DCA3A3; }
+
+#container { display: flex; flex-flow: row wrap; }
+
+aside { flex: 1 100%; margin: 2em; }
+@media only screen and (min-width: 50em) { aside { flex: 1 0; order: 2; } }
+
+main { flex: 1 100%; margin: 1em; }
+@media only screen and (min-width: 50em) { main { flex: 3 0; } }
+
+img { max-width: 200px; box-sizing: border-box; border-radius: 20px; border: 5px solid #3F3F3F; }
+
+#papers dt { font-size: 120%; }
+#papers dd + dt { padding-top: 1em; }
+#papers dd { margin: 0 1em; font-size: 90%; }
+#papers .author .me { font-weight: bold; }
+
+h1 { color: #F0DFAF; }
+
+h2 { color: #DCA3A3; }
+
+.news-item { display: flex; flex-flow: row wrap; /* needed to ignore p from jekyll in news entries */ }
+.news-item .date { color: #F0DFAF; padding-bottom: 0.5em; }
+@media only screen and (min-width: 50em) { .news-item .date { flex: 1; text-align: right; padding-right: 1em; } }
+.news-item .content { padding-bottom: 1em; }
+@media only screen and (min-width: 50em) { .news-item .content { flex: 5; } }
+.news-item .content > p { display: inline; margin: 0; }
+
+/*
+Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
+based on dark.css by Ivan Sagalaev
+*/

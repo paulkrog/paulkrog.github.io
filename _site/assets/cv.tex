@@ -1,0 +1,364 @@
+\documentclass[sigchi,12pt,a4paper,sans,nonacm]{acmart}
+
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{lipsum}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{titlesec}
+% \usepackage{libertinus}  % Loads the Linux Libertine font
+\titleformat{\section}[block]{\normalsize\bfseries\sffamily}{\thesection}{1em}{}
+
+\definecolor{zgreen}{HTML}{2F4F3F}
+\newcommand{\myh}[3][zgreen]{\href{#2}{\color{#1}{#3}}}
+
+
+\pagenumbering{gobble}
+\def\shorttitle{}
+\setlist[enumerate]{leftmargin=10pt}
+
+\begin{document}
+
+% \setlength{\abovedisplayskip}{0pt}
+% \setlength{\belowdisplayskip}{0pt}
+% \setlength{\abovedisplayshortskip}{0pt}
+% \setlength{\belowdisplayshortskip}{0pt}
+
+{\centering {\Large {\bf Paul Krogmeier }}\par}
+
+\vspace{0.2in}
+% \renewcommand{\arraystretch}{0.8}
+
+\noindent \myh{mailto: paulmk2@illinois.edu}{paulmk2@illinois.edu}
+
+\noindent \myh{https://paulkrog.github.io}{https://paulkrog.github.io}
+
+\section*{\MakeUppercase{Education}}
+
+\vspace{0.2in}
+
+% \leftskip 0.3in
+\renewcommand{\arraystretch}{0.9}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{University of Illinois Urbana-Champaign} & 2018{--}2025 \\
+  \textit{Ph.D. in Computer Science (advisor: Madhusudan
+  Parthasarathy).} &   \\
+  Ph.D. Thesis: Learning Symbolic Concepts and Domain-specific Languages. &
+\end{tabular*}
+
+\vspace{0.2in}
+\noindent
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{Purdue University} &  \\
+  \textit{M.S. in Computer Engineering (advisor: Benjamin Delaware).} & 2016{--}2018 \\
+  M.S. Thesis: A Core Calculus for Data Refinement. & \\
+  \textit{B.S. in Computer Engineering (with highest distinction).} & 2012{--}2016
+\end{tabular*}
+
+\vspace{0.1in}
+
+\section*{\MakeUppercase{Research Interests}}
+\label{sec:research-interests}
+
+\vspace{0.2in}
+\begin{enumerate}
+\item[] \begin{singlespace}
+\noindent
+My interests are in the foundations of \textbf{symbolic learning and
+  reasoning}, with a focus on the problem of learning symbolic
+concepts that describe \textbf{structured data} like sequences, trees,
+graphs, or states of computer programs. This encompasses program
+synthesis from examples as well as learning classifiers expressed in
+logic. Recently, I have been exploring how to \textbf{synthesize
+  domain-specific languages} to support efficient few-shot symbolic
+learning.
+\end{singlespace}
+\end{enumerate}
+
+
+\section*{\MakeUppercase{Awards}}
+\vspace{0.2in}
+
+\noindent
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  ACM SIGPLAN Distinguished Paper Award at OOPSLA & 2023 \\
+  ACM SIGPLAN Distinguished Paper Award at POPL & 2022 \\
+  Illinois Wing Kai Cheng Fellowship & 2018 \\
+  Purdue Ross Fellowship & 2016 \\
+\end{tabular*}
+
+\vspace{0.1in}
+\section*{\MakeUppercase{Refereed Conference Publications}}
+\vspace{0.2in}
+
+\begin{enumerate}[itemsep=16pt]
+% \item[] \begin{tabular*}{1.0\linewidth}[l]{l}
+%     Paul Krogmeier and P. Madhusudan. \\
+% \myh{https://paulkrog.github.io/papers/MetaTheorem.pdf}{\underline{\smash{Languages
+%           with Decidable Learning: a Meta-theorem.}}} \\
+%     \textbf{Distinguished paper}, OOPSLA 2023.
+%   \end{tabular*}
+\item[] Paul Krogmeier and P. Madhusudan. 2023. Languages with
+  Decidable Learning: A Meta-theorem. Proc. ACM Program. Lang. 7,
+  OOPSLA1, Article 80 (April 2023), 29
+  pages. \myh{https://doi.org/10.1145/3586032}{https://doi.org/10.1145/3586032}
+  \\ \textbf{ACM SIGPLAN Distinguished Paper Award.}
+% \item[] \begin{tabular*}{1.0\linewidth}[l]{l}
+%     Paul Krogmeier$^*$, Zhengyao Lin$^*$, Adithya Murali$^*$, and P. Madhusudan. \\
+%     \myh{https://dl.acm.org/doi/pdf/10.1145/3563348}{\underline{\smash{Synthesizing Axiomatizations using Logic Learning.}}} \\
+%     OOPSLA 2022.
+%   \end{tabular*}
+\item[] Paul Krogmeier$^*$, Zhengyao Lin$^*$, Adithya Murali$^*$, and
+  P. Madhusudan. 2022. Synthesizing axiomatizations using logic
+  learning. Proc. ACM Program. Lang. 6, OOPSLA2, Article 185 (October
+  2022), 29
+  pages. \myh{https://doi.org/10.1145/3563348}{https://doi.org/10.1145/3563348}
+% \item[] \begin{tabular*}{1.0\linewidth}[l]{l}
+%         Adithya Murali, Atharva Sehgal, Paul Krogmeier, and P. Madhusudan. \\
+%         \myh{https://doi.org/10.24963/ijcai.2022/466}{\underline{\smash{Composing Neural Learning and Symbolic Reasoning with an Application to Visual Discrimination.}}} \\
+%         IJCAI 2022.
+%   \end{tabular*}
+\item[]
+\item[] Adithya Murali, Atharva Sehgal, Paul Krogmeier,
+  P. Madhusudan. Composing Neural Learning and Symbolic Reasoning with
+  an Application to Visual Discrimination. Proceedings of the
+  Thirty-First International Joint Conference on Artificial
+  Intelligence Main Track (IJCAI). Pages
+  3358-3365.\\ \myh{https://doi.org/10.24963/ijcai.2022/466}{https://doi.org/10.24963/ijcai.2022/466}
+% \item[] \begin{tabular*}{1.0\linewidth}[l]{l}
+%         Paul Krogmeier and P. Madhusudan. \\
+%         \myh{https://doi.org/10.1145/3498671}{\underline{\smash{Learning Formulas in Finite Variable Logics.}}} \\
+%         \textbf{Distinguished paper}, POPL 2022.
+%   \end{tabular*}
+\item[] Paul Krogmeier and P. Madhusudan. 2022. Learning formulas in
+  finite variable logics. Proc. ACM Program. Lang. 6, POPL, Article 10
+  (January 2022), 28
+  pages. \myh{https://doi.org/10.1145/3498671}{https://doi.org/10.1145/3498671}
+  \\ \textbf{ACM SIGPLAN Distinguished Paper Award.}
+% \item[] \begin{tabular*}{1.0\linewidth}[l]{l}
+%         Gilles Barthe, Rohit Chadha, Paul Krogmeier, Aravinda Sistla, Mahesh Viswanathan. \\
+%         \myh{https://dl.acm.org/doi/abs/10.1145/3434289}{\underline{\smash{Deciding Accuracy of Differential Privacy
+%     Schemes.}}} \\
+%         POPL 2021.
+%   \end{tabular*}
+\item[] Gilles Barthe, Rohit Chadha, Paul Krogmeier, A. Prasad Sistla,
+  and Mahesh Viswanathan. 2021. Deciding accuracy of differential
+  privacy schemes. Proc. ACM Program. Lang. 5, POPL, Article 8
+  (January 2021), 30 pages. \myh{https://doi.org/10.1145/3434289}{https://doi.org/10.1145/3434289}
+% \item[] \begin{tabular*}{1.0\linewidth}[l]{l}
+%         Paul Krogmeier, P. Madhusudan, Umang Mathur, Adithya
+%   Murali, Mahesh Viswanathan. \\
+%         \myh{https://paper.springer.com/chapter/10.1007/978-3-030-53291-8_32}{\underline{\smash{Decidable Synthesis of Programs with Uninterpreted
+%     Functions.}}} \\
+%         CAV 2020.
+%   \end{tabular*}
+\item[] Krogmeier, P., Mathur, U., Murali, A., Madhusudan, P.,
+  Viswanathan, M. (2020). Decidable Synthesis of Programs with
+  Uninterpreted Functions. In: Lahiri, S., Wang, C. (eds) Computer
+  Aided Verification. CAV 2020. Lecture Notes in Computer Science,
+  vol 12225. Springer,
+  Cham. \\ \myh{https://doi.org/10.1007/978-3-030-53291-8_32}{https://doi.org/10.1007/978-3-030-53291-8\_32}
+% \item[] \begin{tabular*}{1.0\linewidth}[l]{l}
+%         Umang Mathur, Adithya Murali, Paul Krogmeier,
+%   P. Madhusudan, and Mahesh Viswanathan. \\
+%         \myh{https://doi.org/10.1145/3371103}{\underline{\smash{Deciding Memory Safety for Single-pass Heap-manipulating
+%     Programs.}}} \\
+%         POPL 2019.
+%   \end{tabular*}
+\item[] Umang Mathur, Adithya Murali, Paul Krogmeier, P. Madhusudan,
+  and Mahesh Viswanathan. 2019. Deciding memory safety for single-pass
+  heap-manipulating programs. Proc. ACM Program. Lang. 4, POPL,
+  Article 35 (January 2020), 29 pages. \myh{https://doi.org/10.1145/3371103}{https://doi.org/10.1145/3371103}
+\end{enumerate}
+
+\section*{\MakeUppercase{Workshop Publications}}
+\label{sec:worksh-publ}
+\vspace{0.1in}
+
+\begin{enumerate}[itemsep=6pt]
+\item[] \begin{tabular*}{1.0\linewidth}[l]{l} Paul Krogmeier,
+          Steven Kidd, Benjamin Delaware. \\
+          \myh{https://popl18.sigplan.org/details/CoqPL-2018/4/Towards-Context-Aware-Data-Refinement}{\underline{\smash{Towards Context-Aware Data Refinement.}}} \\
+          CoqPL 2018
+        \end{tabular*}
+\end{enumerate}
+
+\section*{\MakeUppercase{Under Submission}}
+\label{sec:under-submission}
+\vspace{0.1in}
+
+\begin{enumerate}[itemsep=2pt]
+\item[] \begin{tabular*}{1.0\linewidth}[l]{l}
+          Paul Krogmeier and P. Madhusudan. \\
+          \myh{}{\underline{\smash{Synthesizing DSLs for Few-Shot
+          Learning.}}} \\
+          Algorithms for synthesizing domain-specific languages that
+          can be learned from few examples. % \\ \emph{In preparation}.
+  % \vspace{0.1in}
+        \end{tabular*}
+% \item[] \begin{tabular*}{1.0\linewidth}[l]{l}
+%           Paul Krogmeier. \\
+%           \myh{}{\underline{\smash{Computing with Abstractions.}}} \\
+%           A new model of computation to study how
+%           abstractions emerge in an evolving computation. \\
+%           \emph{In preparation}.
+%         \end{tabular*}
+\end{enumerate}
+
+\section*{\MakeUppercase{Work in Progress}}
+\label{sec:wip}
+\vspace{0.1in}
+
+\begin{enumerate}[itemsep=2pt]
+% \item[] \begin{tabular*}{1.0\linewidth}[l]{l}
+%           Paul Krogmeier and P. Madhusudan. \\
+%           \myh{}{\underline{\smash{Synthesizing DSLs for Few-Shot
+%           Learning.}}} \\
+%           Algorithms for synthesizing domain-specific languages that
+%           can be learned efficiently \\ from few examples. \\ \emph{In preparation}.  \vspace{0.1in}
+%         \end{tabular*}
+\item[] \begin{tabular*}{1.0\linewidth}[l]{l}
+          Paul Krogmeier. \\
+          \myh{}{\underline{\smash{Computing with Abstractions.}}} \\
+          A new model of computation to study how
+          abstractions emerge in an evolving computation. \\
+          \emph{In preparation}.
+        \end{tabular*}
+\end{enumerate}
+
+\section*{\MakeUppercase{Invited Talks}}
+\vspace{0.1in}
+
+\begin{enumerate}[itemsep=6pt]
+\item[] \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+  Learning Symbolic Concepts and Domain-specific Languages & Harvard
+                                                             CS, Nov
+                                                             24 \\
+  & George Mason CS, Oct 24 \\
+  & Santa Fe Institute, Jun 24 \\
+  & MIT EECS, Apr 24\\
+                                                           & Houston CS, Apr 24 \\
+                                                           & Purdue ECE/CS, Mar 24
+\end{tabular*}
+\item[] \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+  Languages with Decidable Learning: a Meta-theorem & Boston U. CS, Mar 23
+\end{tabular*}
+\item[] \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+  Learning Formulas in Finite-Variable Logics & St. Petersburg State University, Mar 22
+\end{tabular*}
+\end{enumerate}
+
+\vspace{0.1in}
+\section*{\MakeUppercase{Invited Workshops}}
+\vspace{0.2in}
+
+\begin{enumerate}[itemsep=6pt]
+\item[] \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+    \textbf{Dagstuhl seminar} & Fall 2019 \\
+    Logic and Learning &
+  \end{tabular*}
+\end{enumerate}
+\vspace{0.2in}
+
+\section*{\MakeUppercase{Teaching}}
+\label{sec:teaching}
+\vspace{0.2in}
+
+\begin{enumerate}[itemsep=6pt]
+\item[]
+  \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+    CS 421: Programming Languages and Compilers & \textbf{University
+                                                  of Illinois} \\
+    & Fall 2019, Fall 2020, \\ & Spring 2021, Fall 2021 \\ & Spring
+                                                             2022, Fall
+                                                             2022, \\
+                                                & Spring 2023, Fall
+                                                  2023, \\
+                                                & Fall 2024, Spring 2025
+  \end{tabular*}
+\item[]
+    \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+    ECE 369: Discrete Mathematics for Computer Engineering &
+                                                             \textbf{Purdue
+                                                             University} \\
+                        & Fall 2017
+  \end{tabular*}
+\end{enumerate}
+
+\section*{\MakeUppercase{Service}}
+\label{sec:service}
+\vspace{0.1in}
+
+\begin{enumerate}[itemsep=8pt]
+\item[] \textbf{Conference Reviewer}
+\item[]
+  \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+    International Conference on Tools and Algorithms & 2025\\
+    for the Construction and Analysis of Systems (TACAS) &
+  \end{tabular*}
+\item[]
+  \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+  International Colloquium on Automata, Languages and
+  Programming (ICALP) & 2023
+  \end{tabular*}
+\item[]
+  \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+    Logic in Computer Science (LICS) & 2022
+  \end{tabular*}
+\item[] \textbf{Journal Reviewer}
+\item[]
+  \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+  Formal Methods in System Design (FMSD) & 2023
+  \end{tabular*}
+\end{enumerate}
+
+\vspace{0.2in}
+\section*{\MakeUppercase{Mentoring}}
+\label{sec:mentoring}
+\vspace{0.1in}
+
+\begin{enumerate}[itemsep=6pt]
+\item[]
+  \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+    SIGPLAN-M Graduate Student Mentor & 2023 -- Present
+  \end{tabular*}
+\end{enumerate}
+\vspace{0.2in}
+
+\section*{\MakeUppercase{Student Workshops}}
+\label{sec:student-workshops}
+\vspace{0.2in}
+
+\begin{enumerate}[itemsep=6pt]
+\item[]
+  \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+    VMCAI Formal Methods Winter School & New Orleans, LA \\
+                                       & Jan 2020
+  \end{tabular*}
+\item[]
+  \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+    SRI Formal Methods Summer School & Atherton, CA \\
+                                     & May 2019
+  \end{tabular*}
+\item[]
+  \begin{tabular*}{1.0\linewidth}[l]{l@{\extracolsep{\fill}}r}
+    Oregon Programming Languages Summer School & Eugene, OR \\
+                                               & Jun 2017
+  \end{tabular*}
+\end{enumerate}
+
+\section*{\MakeUppercase{Miscellany}}
+\label{sec:misc}
+\vspace{0.1in}
+
+\begin{enumerate}[itemsep=2pt]
+\item[] Native English speaker, fluent in Spanish, conversational in German.
+\item[] Jazz alto saxophonist with substantial performance and
+  teaching experience.
+\item[] Lover of snow, mountains, and skiing.
+\end{enumerate}
+
+\vspace{0.2in}
+
+\end{document}

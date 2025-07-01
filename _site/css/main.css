@@ -1,0 +1,51 @@
+/* ^ needed for jekyll */
+html { background-color: #ffe8bc; }
+
+body { font-size: 110%; font-family: 'Tinos'; margin: 0 auto; /* center the page */ max-width: 55em; color: #4F4F4F; }
+
+a { text-decoration: none; color: #b37575; }
+
+.paper-title { color: #5F7F6F; }
+
+.paper-venue { color: #8d9fa4; }
+
+highlight { text-decoration: bold; color: #DCA3A3; }
+
+justplaingreen { text-decoration: none; color: #5F7F6F; }
+
+a:hover, a:focus, a.active { text-decoration: bold; color: #DCA3A3; }
+
+#container { display: flex; flex-flow: row wrap; }
+
+aside { flex: 1 100%; margin: 2em; }
+@media only screen and (min-width: 45em) { aside { flex: 1 0; order: 2; } }
+
+main { flex: 1 100%; margin: 1em; }
+@media only screen and (min-width: 45em) { main { flex: 3 0; } }
+
+img { max-width: 240px; box-sizing: border-box; border-radius: 20px; border: 5px solid #3F3F3F; }
+
+#papers dt { font-size: 120%; }
+#papers dd + dt { padding-top: 1em; }
+#papers dd { margin: 0 1em; font-size: 90%; }
+#papers .author .me { font-weight: bold; }
+
+h3 { color: #3F3F3F; }
+
+h1 { color: #4F4F4F; }
+
+h2 { color: #4F4F4F; }
+
+.news-item { display: flex; flex-flow: row wrap; /* needed to ignore p from jekyll in news entries */ }
+.news-item .date { color: #F0DFAF; padding-bottom: 0.5em; }
+@media only screen and (min-width: 45em) { .news-item .date { flex: 1; text-align: right; padding-right: 1em; } }
+.news-item .content { padding-bottom: 1em; }
+@media only screen and (min-width: 45em) { .news-item .content { flex: 5; } }
+.news-item .content > p { display: inline; margin: 0; }
+
+/* added 1/14/25 */
+.custom-list { list-style-type: disc; /* Standard bullet points */ margin: 0; padding: 0 40px; }
+
+.custom-list li { margin-bottom: 0.3em; /* Add spacing between items */ }
+
+.custom-list .subtext { font-size: 0.95em; /* Slightly smaller text for subtext */ color: #5F7F6F; /* Optional: Make subtext visually distinct */ margin: 0; /* Remove extra margin from <p> */ }
