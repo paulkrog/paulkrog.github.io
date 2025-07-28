@@ -23,7 +23,7 @@ aside { flex: 1 100%; margin: 2em; }
 main { flex: 1 100%; margin: 1em; }
 @media only screen and (min-width: 45em) { main { flex: 3 0; } }
 
-img { max-width: 240px; box-sizing: border-box; border-radius: 20px; border: 5px solid #3F3F3F; }
+img { max-height: 240px; box-sizing: border-box; border-radius: 20px; border: 5px solid #3F3F3F; }
 
 #papers dt { font-size: 120%; }
 #papers dd + dt { padding-top: 1em; }

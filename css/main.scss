@@ -121,11 +121,13 @@ main {
 }
 
 img {
-    max-width: 240px;
+    max-height: 240px;
     box-sizing: border-box;
     border-radius: 20px;
     border: 5px solid $zendark;
 }
+// Another clue to stretched photo: other viewers, e.g. outlook, also stretch it...
+
 // img {
 //     max-width: 200px;
 //     box-sizing: border-box;
