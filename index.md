@@ -6,7 +6,7 @@ layout: experimental
 
 I'm a postdoctoral fellow at Harvard advised by [Nada Amin][nada] and
 [Walter Fontana][walter]. My primary area of research touches
-programming languages, logic, and formal methods.
+programming languages, logic, and program synthesis.
 
 <!-- Currently we are exploring ... evolutionary algorithms -->
 <!-- program synthesis. -->
@@ -39,7 +39,7 @@ below.
 <p class="subtext"><i>How can processes with limited accuracy perform universal computations?</i></p>
 </li>
 <li>Formal expressivity and algorithmic capabilities of neural
-architecture classes</li>
+networks</li>
 <li>Evolution of language and connections between evolution and learning</li>
 <!-- <li>Human-computer collaborative music improvisation</li> -->
 <li>Teaching computer science and music improvisation together:
