@@ -3,7 +3,8 @@
   - Paul Krogmeier
   - P. Madhusudan
   url: /papers/DSLSynth.pdf
-  extra: Conditionally accepted at OOPSLA 2025
+  venue: OOPSLA 2025
+  venue_url: https://2025.splashcon.org/track/OOPSLA?
 
 - title: "Languages with Decidable Learning: A Meta-theorem"
   authors:
