@@ -6,15 +6,18 @@ layout: experimental
 
 I'm a postdoctoral fellow at Harvard advised by [Nada Amin][nada] and
 [Walter Fontana][walter]. My primary area of research touches
-programming languages, logic, and program synthesis.
+programming languages, logic, and program synthesis. I received a PhD
+from the [University of Illinois][uiuc] advised by [Madhusudan
+Parthasarathy][madhu].
 
 <!-- Currently we are exploring ... evolutionary algorithms -->
 <!-- program synthesis. -->
 
 I will be joining the [University of Colorado Boulder][cu] as an
-assistant professor in computer science starting Fall 2026. I received
-a PhD from the [University of Illinois][uiuc] advised by [Madhusudan
-Parthasarathy][madhu].
+assistant professor in computer science starting Fall 2026 and will be
+recruiting PhD students. If my research interests you please consider
+[applying to the CS PhD program][apply] and mentioning my name in your
+application.
 
 I'm also a jazz alto saxophone player 🎷 and always interested in
 chances to jam. Shoot me an email if you'd like to talk about anything
@@ -79,6 +82,7 @@ succinctly or not at all  </li>
 [uiuc]: https://illinois.edu/
 [cs]: https://cs.illinois.edu/
 [madhu]: https://madhu.cs.illinois.edu/
+[apply]: https://www.colorado.edu/cs/admissions/graduate-admissions/how-apply
 
 ### Publications
 
