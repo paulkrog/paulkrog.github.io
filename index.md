@@ -13,7 +13,7 @@ Parthasarathy][madhu].
 <!-- Currently we are exploring ... evolutionary algorithms -->
 <!-- program synthesis. -->
 
-I will be joining the [University of Colorado Boulder][cu] as an
+I'll be joining the [University of Colorado Boulder][cu] as an
 assistant professor in computer science starting Fall 2026 and will be
 recruiting PhD students. If my research interests you please consider
 [applying to the CS PhD program][apply] and mentioning my name in your
