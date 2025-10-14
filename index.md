@@ -41,16 +41,16 @@ below.
 <li>Computational universality with errors:
 <p class="subtext"><i>How can processes with limited accuracy perform universal computations?</i></p>
 </li>
-<li>Formal expressivity and algorithmic capabilities of neural
-networks</li>
-<li>Evolution of language and connections between evolution and learning</li>
+<li>Algorithmic capabilities of neural networks</li>
+<li>Evolution of language </li>
+<li> Connections between evolution and learning</li>
 <!-- <li>Human-computer collaborative music improvisation</li> -->
 <li>Teaching computer science and music improvisation together:
 <p class="subtext"><i>Learning to improvise within classes of
 "regular" riffing patterns, adding a "stack", etc. </i></p>
 </li>
-<li>Rigorous characterizations of creativity:
-<p class="subtext"><i>What's the difference between creative processes and automatic processes?</i></p>
+<li>Can a deterministic program be "creative"?
+<!-- <p class="subtext"><i>What kinds of programs can have this property?</i></p> -->
 </li>
 </ul>
 </section>
@@ -60,7 +60,7 @@ networks</li>
 <section id="projects">
 <ul class="custom-list">
 
-<li><b>Emergence of symbolic language:</b> developing a computational
+<li><b>Emergence of abstraction:</b> developing a computational
 model in which symbolic language and abstraction are emergent outcomes
 of computation</li>
 
