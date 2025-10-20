@@ -49,7 +49,7 @@ below.
 <p class="subtext"><i>Learning to improvise within classes of
 "regular" riffing patterns, adding a "stack", etc. </i></p>
 </li>
-<li>Can a deterministic program be "creative"?
+<li>What is "creativity"?
 <!-- <p class="subtext"><i>What kinds of programs can have this property?</i></p> -->
 </li>
 </ul>
